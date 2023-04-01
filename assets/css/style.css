@@ -1,0 +1,314 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: "f1" !important;
+    overflow-x: hidden;
+}
+
+/* font */
+@font-face {
+    font-family: "f1";
+    src: url("../fonts/Euclid\ Circular\ A\ Regular.ttf");
+}
+
+@font-face {
+    font-family: "f2";
+    src: url("../fonts/Euclid\ Circular\ A\ Medium.ttf");
+}
+
+@font-face {
+    font-family: "f3";
+    src: url("../fonts/Euclid\ Circular\ A\ SemiBold.ttf");
+}
+
+/* font end */
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "f3";
+}
+
+p {
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none !important;
+    color: #000;
+}
+
+ul {
+    list-style: none !important;
+    padding: 0 !important;
+}
+
+.w-90 {
+    width: 90%;
+    margin: auto;
+}
+
+.w-50 {
+    width: 50% !important;
+    margin: auto;
+}
+
+.w-95 {
+    width: 95%;
+    margin: auto;
+}
+
+.w-80 {
+    width: 80%;
+    margin: auto;
+}
+
+.w-70 {
+    width: 70%;
+    margin: auto;
+}
+
+/* // common design // */
+.d-flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d-flex-al {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.d-flex-jc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.d-flex-jb {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.d-flex-al-jc {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.d-flex-al-jb {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* // common design end // */
+/* // button design star // */
+.btn-des {
+    background: #008DD2;
+    color: #fff !important;
+    border-radius: 7px;
+    padding: 8px 18px;
+    transition: .3s all;
+    border: 0;
+    font-size: 15px;
+    box-shadow: 0 3px 10px #008dd13d;
+    font-family: "f2";
+}
+
+/* // button design end // */
+/* form design */
+.form-control {
+    padding: 10px 12px !important;
+    font-size: 15px !important;
+    border: 1px solid #008dd129 !important;
+    box-shadow: 0 7px 20px #008dd11a;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #008dd129 !important;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 0%) !important;
+}
+
+/* form design end */
+/* navbar design */
+.nav-menu {
+    background: #F3F6FF;
+}
+
+.nav-menu img {
+    width: 120px;
+}
+
+.nav-menu .nav_a {
+    align-items: center;
+}
+
+.nav-menu .nav_a .nav-link {
+    color: #000;
+    font-size: 15px;
+}
+
+.nav-menu .nav_a .nav-link.active {
+    color: #008DD2;
+}
+
+/* navbar design end */
+/* footer design */
+footer {
+    background: #F5F5F5;
+    padding: 10px;
+}
+
+.footer-design img {
+    width: 120px;
+}
+
+.footer-design .play-store img {
+    margin: 5px;
+}
+
+.footer-design p {
+    font-size: 15px;
+    line-height: 1.7;
+    margin-top: 15px;
+    opacity: .7;
+}
+
+.footer-design h5 {
+    color: #008DD2;
+}
+
+.footer-design ul li {
+    margin-right: 35px;
+    margin-top: 10px;
+}
+
+.footer-design ul li a {
+    color: #000 !important;
+}
+
+/* footer design end*/
+/* login design */
+.login-page {
+    height: 100vh;
+}
+
+.login-page .login-ses {
+    height: 100%;
+    width: 100%;
+}
+
+.login-page .logi-des {
+    background: url(../img/login-bg.png) no-repeat;
+    background-size: cover;
+    height: 100%;
+    left: 0;
+    padding: 100px 50px;
+    position: fixed;
+    top: 0;
+    width: 45%;
+}
+
+.logi-des .logo-design img {
+    width: 140px;
+    margin-bottom: 30px;
+}
+
+.logi-des .logo-design h4 {
+    color: #008DD2;
+    margin-bottom: 30px;
+}
+
+.logi-des .logo-design h5 {
+    color: #000;
+}
+
+.logi-des .login-imgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.login-page .login-content h3 {
+    border-bottom: 1px solid #d7e1dc;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    position: relative;
+    text-align: center;
+}
+
+.login-page .login-content h3::before {
+    background-color: #008DD2;
+    content: "";
+    height: 3px;
+    width: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    bottom: -2px;
+}
+
+.login-content .nav-link img {
+    width: 45px;
+    margin-right: 8px;
+}
+
+.login-content .nav-item {
+    margin: 0 10px;
+}
+
+.login-content .nav-link {
+    background-color: #Fff;
+    box-shadow: 0 7px 20px #008dd129;
+    color: #000;
+}
+
+.login-content .nav-link.active {
+    background-color: #008DD2 !important;
+    color: #000;
+}
+
+.login-content .nav-link.active img {
+    filter: invert(1);
+}
+
+.login-content .password-container {
+    position: relative;
+}
+
+.login-content .fa-eye {
+    position: absolute;
+    top: 30%;
+    right: 3%;
+    cursor: pointer;
+    color: #008DD2;
+}
+
+
+.login-content h6 a {
+    color: #008DD2;
+    font-size: 15px;
+}
+
+.login-content h6 {
+    font-family: "f2";
+}
+
+.login-content .btn-des {
+    width: 100%;
+    padding: 10px 12px !important;
+    background: #008DD2 !important;
+}
+
+/* login design end */
