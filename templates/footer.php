@@ -66,3 +66,74 @@
     }
 </script>
 <!-- login end -->
+<!-- owl carousel -->
+<script>
+    $('.owl-pro').owlCarousel({
+        loop: true,
+        margin: 30,
+        nav: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+
+            1000: {
+                items: 3
+            }
+        }
+    })
+</script>
+<!-- owl carousel end -->
+<!-- job apply now modal -->
+<div class="modal fade" id="job-pop">
+    <div class="modal-dialog modal-dialog-centered  ">
+        <div class="modal-content">
+            <button type="button" data-bs-dismiss="modal" class="clse_btn">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="modal-body">
+
+                <div class="con_rig">
+                    <h4>Send Message</h4>
+                    <form class="mt-3" action="">
+                        <div class="d-flex flex-wrap">
+                            <div class="  col-12 px-2 mb-2">
+                                <label for="">Name</label>
+                                <input type="text" class="form-control" placeholder="Enter your Name" name="" id="">
+                            </div>
+                            <div class="  col-12 px-2 mb-2">
+                                <label for="">Email</label>
+                                <input type="email" class="form-control" placeholder="Enter your Email" name="" id="">
+                            </div>
+                            <div class="  col-12 px-2 mb-2">
+                                <label for="">Mobile</label>
+                                <input type="number" class="form-control" placeholder="Enter your Mobile" name="" id="">
+                            </div>
+                            <div class="  col-12 px-2 mb-2">
+                                <label for="">Upload Resume</label>
+                                <input type="file" class="form-control" placeholder="Enter your Mobile" name="" id="">
+                            </div>
+
+                            <div class="col-12 px-2 mb-2">
+                                <label for="">Message</label>
+                                <textarea class="form-control" rows="3" name="address" placeholder="Enter Your Message" id="comment"></textarea>
+                            </div>
+                            <div class="sub_mit ps-2">
+                                <input class="btn-des" type="submit">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- modal -->

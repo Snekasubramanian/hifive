@@ -13,6 +13,37 @@
         width: 100%;
     }
 
+    .search-container .form-select {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .nav-menu .min-nav {
+        background: #dadada;
+        padding: 10px 20px;
+        position: absolute;
+        right: -150px;
+        top: 80px;
+        transition: all .2s;
+        width: 190px;
+        z-index: 11;
+    }
+
+    .nav-menu .min-nav.show {
+        right: 0;
+        transition: all .2s;
+    }
+    .nav-menu .nav_a {
+        align-items: start;
+    }
+    .sea{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #searchform {
+      
+        max-width: inherit; 
+    }
 }
 
 @media (max-width: 567px) {

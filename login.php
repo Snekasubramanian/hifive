@@ -5,8 +5,10 @@ include('templates/header.php') ?>
         <div class="col-md-6 col-12">
             <div class="logi-des">
                 <div class="logo-design">
-                    <img src="./assets/img/logo.png" alt="Square 
+                    <a href="index.php">
+                        <img src="./assets/img/logo.png" alt="Square 
                 way in">
+                    </a>
                     <h4>Welcome Back !</h4>
                     <h5>Discover Your Dream Job Here</h5>
                 </div>

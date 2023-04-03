@@ -7,7 +7,7 @@
             <i class="fa-solid fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse justify-content-center   min-nav " id="navbarScroll">
-            <ul class="navbar-nav navbar-nav-scroll nav_a">
+            <ul class="navbar-nav navbar-nav-scrolls nav_a">
 
                 <li class="nav-item">
                     <a class="nav-link  <?php if ($file_name == "home") {
@@ -17,9 +17,9 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link  <?php if ($file_name == "jobs") {
+                    <a class="nav-link  <?php if ($file_name == "job") {
                                             echo "active";
-                                        } ?>" aria-current="page" href="jobs.php">Jobs
+                                        } ?>" aria-current="page" href="job.php">Jobs
 
                     </a>
                 </li>
@@ -45,7 +45,7 @@
 
                     </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item my-md-0 my-2">
                     <a class="btn-des " href="login.php">Login</a>
                 </li>
             </ul>

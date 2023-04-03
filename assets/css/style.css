@@ -82,6 +82,12 @@ ul {
     align-items: center;
 }
 
+.d-flex-as {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+}
+
 .d-flex-jc {
     display: flex;
     flex-wrap: wrap;
@@ -122,6 +128,24 @@ ul {
     font-family: "f2";
 }
 
+.btn-des:hover {
+    background-color: #0278B3;
+    transform: translateY(-2px);
+    transition: 0.2s;
+}
+
+.clse_btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+    background: #008DD2;
+    width: 25px;
+    height: 25px;
+    z-index: 1;
+    color: #fff;
+}
+
 /* // button design end // */
 /* form design */
 .form-control {
@@ -142,6 +166,7 @@ ul {
 /* navbar design */
 .nav-menu {
     background: #F3F6FF;
+    border-bottom: 1px solid #00000014;
 }
 
 .nav-menu img {
@@ -312,3 +337,371 @@ footer {
 }
 
 /* login design end */
+/* home page design */
+.banner-design {
+    padding: 60px 20px;
+    background: #f3f6ff;
+}
+
+.banner-design .banr-right img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-design .baner-left h6 {
+    color: #008DD2;
+}
+
+.search-container .form-control {
+    padding: 15px 20px !important;
+}
+
+.search-container .form-select {
+    width: 25%;
+    font-family: "f1";
+}
+
+.search-container .btn-sea {
+    position: absolute;
+    right: 11px;
+    top: 7px;
+    padding: 8px 15px;
+    font-size: 17px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #008DD2 !important;
+}
+
+#searchform {
+    display: block;
+    /* margin: 0 auto; */
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+}
+
+.navbar-toggler {
+    background-color: #008DD2 !important;
+    color: #fff !important;
+}
+
+/* home page design end*/
+/* Job Featured */
+.title-design h2 {
+    color: #008DD2;
+}
+
+.featur-job {
+    background: #F0F8FD;
+    padding: 20px;
+}
+
+.featur-job .img-bg img {
+    padding: 10px;
+    width: 70px !important;
+    height: 70px;
+    background: #fff;
+}
+
+.featur-job .job-comp p {
+    opacity: .7;
+}
+
+.featur-job .icon-det span {
+    color: #008DD2;
+}
+
+.featur-job .icon-det h6 {
+    margin: 0;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.featur-job .icon-det p {
+    margin: 0;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.featur-job .skils-det p {
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    line-height: 1.6;
+}
+
+.featur-job .skils-det li {
+    margin: 5px;
+    background: #fff;
+    padding: 3px 11px;
+    border-radius: 12px;
+    font-size: 12px;
+
+}
+
+/* Job Featured end */
+/* find job design */
+.find-job img {
+    width: 100%;
+    height: auto;
+}
+
+.find-job .find-content h6 {
+    color: #008DD2;
+}
+
+.find-job .find-content p {
+    line-height: 2;
+}
+
+/* find job design end */
+/* blog design */
+.cou_card {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ece8e8;
+}
+
+.blog-page .cou_card {
+    box-shadow: 0 3px 10px #008dd13d;
+}
+
+.cou_card h6,
+.cou_card span {
+    margin: 0;
+    opacity: .7;
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+.cou_card p {
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    line-height: 1.6;
+}
+
+.blog-bg {
+    background: #ECEDF2;
+    padding: 25px;
+}
+
+.cou_card img {
+    width: 100%;
+    height: auto;
+}
+
+.cou_card:hover img {
+    transform: scale(1.07);
+}
+
+.cou_card:hover h5 {
+    color: #008DD2;
+}
+
+.cou_card .cou_img {
+    overflow: hidden;
+}
+
+.cou_card .cou_img img {
+    transition: all 0.6s ease-in-out 0s;
+    border-radius: 10px;
+}
+
+/* blog design end */
+/* recuirement */
+.requit-bg {
+    background: #eff3fc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.requit-bg .rec-conts img {
+    width: 50%;
+}
+
+.requit-bg .rec-conts {
+    text-align: end;
+}
+
+/* recuirement end */
+/* About Us */
+
+.ban_imgg {
+    position: relative;
+}
+
+.ban_imgg h5 {
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+/* page banner ends */
+.about-page .abou-img img {
+    width: 100%;
+    height: auto;
+}
+
+.about-page .about-img h6 {
+    color: #008DD2;
+}
+
+.about-page .about-img p {
+    text-align: justify;
+    line-height: 2;
+}
+
+.recuit-bg .recuit-design img {
+    width: 100%;
+    height: auto;
+}
+
+.recuit-bg {
+    background: #f3f6ff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.our-miss img {
+    width: 80px;
+    margin: 10px auto;
+}
+
+.our-miss h5 {
+    text-transform: capitalize;
+}
+
+.our-miss p {
+    line-height: 1.8;
+    opacity: .8;
+}
+
+/* About Us end */
+/* blog design */
+.blog-view h6 {
+    margin: 0;
+    padding-left: 3px;
+}
+
+.blog-view p {
+    text-align: justify;
+}
+
+.sidebar-blog img {
+    width: 100%;
+}
+
+.sidebar-blog h5 {
+    font-size: 17px;
+    color: #000;
+}
+
+.sidebar-blog {
+    padding: 20px;
+    box-shadow: 0px 10px 20px rgb(48 124 255 / 15%);
+    border-radius: 5px;
+}
+
+.date-color {
+    color: #000;
+}
+
+.post-sticky {
+    position: sticky;
+    top: 0;
+}
+
+.border-design {
+    border-bottom: 1px solid #9e9e9e66;
+}
+
+.border-design:last-child {
+    border-bottom: 0px solid #9e9e9e66;
+}
+
+/* blog design end */
+/* job */
+.banner-designs {
+    background: url(../img/ban-img.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 70px 20px;
+}
+
+/* job end */
+/* job details   */
+.job-detail .job-content h4 {
+    border-bottom: 1px solid #d7e1dc;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.job-detail .job-content h4::before {
+    background-color: #008DD2;
+    content: "";
+    height: 3px;
+    width: 50px;
+    position: absolute;
+    left: 0%;
+    bottom: -2px;
+}
+
+.job-detail .job-content p {
+    text-align: justify;
+    line-height: 2;
+}
+
+.job-detail .job-over li {
+    display: flex;
+    align-items: start;
+    margin: 10px 0;
+}
+
+.job-detail .job-content li span {
+    color: #008DD2;
+    font-size: 35px;
+}
+
+.job-content .icon-det h6 {
+    font-family: "f2";
+    font-size: 16px;
+}
+
+.job-content .icon-det p {
+    opacity: .7;
+    font-size: 13px;
+}
+
+.job-content .con-det li {
+    margin: 10px 0;
+
+}
+
+/* job details end */
+/* faq */
+.img-faq img {
+    border-radius: 0 50px 0 50px;
+}
+
+.accordion-button:focus { 
+    border-color: transparent; 
+    box-shadow: 0 0 0 !important;
+}
+
+/* faq end */
