@@ -344,7 +344,7 @@ include('templates/header.php') ?>
                                     <div class="col-md-4 col-3 px-2">
                                         <img src="./assets/img/y11.jpg" alt="">
                                     </div>
-                                    <div class="col-8 col-9 job-company px-2">
+                                    <div class="col-md-8 col-9 job-company px-2">
                                         <h6>Finance Manager & Health</h6>
                                         <div class="d-flex-al op-des">
                                             <span class="material-symbols-outlined">
