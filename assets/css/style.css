@@ -3,7 +3,7 @@ html {
     margin: 0;
     padding: 0;
     font-family: "f1" !important;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 /* font */
@@ -43,6 +43,7 @@ a {
 ul {
     list-style: none !important;
     padding: 0 !important;
+    margin: 0 !important;
 }
 
 .w-90 {
@@ -148,14 +149,16 @@ ul {
 
 /* // button design end // */
 /* form design */
-.form-control {
+.form-control,
+.form-select {
     padding: 10px 12px !important;
     font-size: 15px !important;
     border: 1px solid #008dd129 !important;
     box-shadow: 0 7px 20px #008dd11a;
 }
 
-.form-control:focus {
+.form-control:focus,
+.form-select:focus {
     color: #212529;
     background-color: #fff;
     border: 1px solid #008dd129 !important;
@@ -182,7 +185,7 @@ ul {
     font-size: 15px;
 }
 
-.nav-menu .nav_a .nav-link.active {
+.nav_a .nav-link.active {
     color: #008DD2;
 }
 
@@ -693,15 +696,222 @@ footer {
 
 }
 
+.bl_en {
+    background: #dee6ff;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
 /* job details end */
 /* faq */
 .img-faq img {
     border-radius: 0 50px 0 50px;
 }
 
-.accordion-button:focus { 
-    border-color: transparent; 
+.accordion-button:focus {
+    border-color: transparent;
     box-shadow: 0 0 0 !important;
 }
 
+.accordion-button {
+    border: 1px solid #00000024;
+}
+
 /* faq end */
+/* register */
+.form-des .from-lab {
+    margin: 5px 0;
+    font-family: "f2";
+}
+
+
+
+.page-nation li,
+.page-nations li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.page-nation li a,
+.page-nations li a {
+    color: #666;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #EEE;
+    background-color: #FFF;
+    box-shadow: 0px 0px 10px 0px #EEE;
+}
+
+.page-nation .current,
+.page-nations .currents {
+    color: #FFF;
+    background-color: #008DD2;
+    border-color: #008DD2;
+}
+
+.page-nation .prev.current,
+.page-nation .next.current,
+.page-nations .prev.currents,
+.page-nations .next.currents {
+    background: #0278B3;
+}
+
+
+/* register end */
+/* login-dropdown */
+.dropdown img {
+
+    width: 45px;
+    height: 45px;
+    background: #0278B3;
+    border-radius: 100%;
+    padding: 5px;
+
+}
+
+/* login-dropdown end */
+/* dashboard */
+.dash-board {
+    box-shadow: 0 3px 10px #008dd13d;
+    background: #fff;
+    padding: 20px 15px;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.dash-board li {
+    margin: 10px 0;
+}
+
+.dash-board li a {
+    display: flex;
+    align-items: center;
+    color: #000 !important;
+}
+
+.dash-board li a span {
+    margin: 0 10px 0 0;
+}
+
+.dash-board img {
+    width: 100%;
+    background: #0278b3;
+    border-radius: 10px;
+    padding: 10px;
+    /* height: 80px; */
+}
+
+.dash-board h6 {
+    font-size: 18px;
+    font-family: "f2";
+}
+
+.dash-board .nav-link.active,
+.profile-design .nav-link.active {
+    background-color: rgb(25 103 210 / 10%) !important;
+    color:
+        #0278b3 !important;
+}
+
+.profile-design .nav-link {
+    color:
+        #000 !important;
+}
+
+.apli-design .apl-count {
+    border: 1px solid #ECEDF2;
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0 3px 10px #008dd121;
+    position: relative;
+    overflow: hidden;
+}
+
+.apli-design .apl-count span {
+    width: 65px;
+    height: 65px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 34px;
+}
+
+.apli-design .apl-count img {
+    width: 128px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    opacity: .2;
+}
+
+.applied-job span {
+    background: #e8f0fa;
+    color: #0278b3;
+}
+
+.shor-list span {
+    background: rgb(52 168 83 / 10%);
+    color: #34A853;
+}
+
+.inter-job span {
+    background: rgb(217 48 37 / 10%);
+    color: #D93025;
+}
+
+.reject-list span {
+    background: rgb(249 171 0 / 10%);
+    color: #F9AB00;
+}
+
+.profile-design .form-design {
+    padding: 30px 25px !important;
+    border: 1px solid #008dd129 !important;
+    box-shadow: 0 7px 20px #008dd11a;
+}
+
+.apli-design .job-head {
+    background: #e8f0fa;
+    padding: 10px;
+}
+
+.apli-design .job-head h6 {
+    margin: 0;
+    font-family: "f2";
+    color: #008DD2;
+}
+
+.com-details img {
+    width: 100%;
+}
+
+.com-details .job-company h6 {
+    font-family: "f2";
+}
+
+.com-details .job-company p {
+    margin: 0 3px 0;
+
+}
+
+.com-details .job-company span {
+    font-size: 20px;
+}
+
+.op-des {
+    opacity: .8;
+}
+
+.job-status h6 {
+    color: #F9AB00;
+}
+
+.table-border .bor-bot {
+    border-bottom: 1px solid #ddd;
+}
+ 
+/* dashboard end */

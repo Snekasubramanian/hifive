@@ -3,21 +3,9 @@ include('templates/header.php') ?>
 <div class="login-page  ">
     <div class="login-ses d-flex-al-jc">
         <div class="col-md-6 col-12">
-            <div class="logi-des">
-                <div class="logo-design">
-                    <a href="index.php">
-                        <img src="./assets/img/logo.png" alt="Square 
-                way in">
-                    </a>
-                    <h4>Welcome Back !</h4>
-                    <h5>Discover Your Dream Job Here</h5>
-                </div>
-                <div class="login-imgs">
-                    <img src="./assets/img/login.png" class="w-70" alt="login">
-                </div>
-            </div>
+            <?php include ('templates/login-left.php')?>
         </div>
-        <div class="col-md-5 col-12 my-3">
+        <div class="col-md-5 col-12 my-3 px-md-0 px-3">
             <div class="login-content">
                 <h3>Login</h3>
                 <ul class="nav nav-pills justify-content-center" role="tablist">
@@ -47,7 +35,7 @@ include('templates/header.php') ?>
                                     <h6> <a href="forgot.php">Forgot Password ?</a></h6>
                                 </div>
                                 <div class="mt-4  ">
-                                    <a href="candash.php" class="btn-des btn">Continue</a>
+                                    <a href=" candash.php" class="btn-des btn">Continue</a>
                                 </div>
                                 <div class="mt-4">
                                     <h6>Don't have an account ? <a href="register.php">Register Now</a></h6>
@@ -69,7 +57,7 @@ include('templates/header.php') ?>
                                     <h6> <a href="forgot.php">Forgot Password ?</a></h6>
                                 </div>
                                 <div class="mt-4  ">
-                                    <a href="candash.php" class="btn-des btn">Continue</a>
+                                    <a href="recurdash.php" class="btn-des btn">Continue</a>
                                 </div>
                                 <div class="mt-4">
                                     <h6>Don't have an account ? <a href="register.php">Register Now</a></h6>

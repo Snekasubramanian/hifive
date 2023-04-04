@@ -64,6 +64,15 @@
             x.type = "password";
         }
     }
+
+    function myFunctions() {
+        var x = document.getElementById("myInputs");
+        if (x.type === "password") {
+            x.type = "text";
+        } else {
+            x.type = "password";
+        }
+    }
 </script>
 <!-- login end -->
 <!-- owl carousel -->
@@ -90,6 +99,46 @@
     })
 </script>
 <!-- owl carousel end -->
+<!-- pagination -->
+<script>
+    pageSize = 6;
+
+    showPage = function(page) {
+        $(".line-content").hide();
+        $(".line-content").each(function(n) {
+            if (n >= pageSize * (page - 1) && n < pageSize * page)
+                $(this).show();
+        });
+    }
+
+    showPage(1);
+
+    $("#pagin li a").click(function() {
+        $("#pagin li a").removeClass("current");
+        $(this).addClass("current");
+        showPage(parseInt($(this).text()))
+    });
+</script>
+<script>
+    pageSize = 5;
+
+    showPage = function(page) {
+        $(".line-contents").hide();
+        $(".line-contents").each(function(n) {
+            if (n >= pageSize * (page - 1) && n < pageSize * page)
+                $(this).show();
+        });
+    }
+
+    showPage(1);
+
+    $("#pagins li a").click(function() {
+        $("#pagins li a").removeClass("currents");
+        $(this).addClass("currents");
+        showPage(parseInt($(this).text()))
+    });
+</script>
+<!-- pagination end -->
 <!-- job apply now modal -->
 <div class="modal fade" id="job-pop">
     <div class="modal-dialog modal-dialog-centered  ">

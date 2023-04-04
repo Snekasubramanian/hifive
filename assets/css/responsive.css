@@ -8,7 +8,7 @@
 @media (max-width: 991px) {}
 
 @media (max-width: 767px) {
-    .logi-des {
+    .login-page .logi-des {
         position: relative;
         width: 100%;
     }
@@ -33,16 +33,40 @@
         right: 0;
         transition: all .2s;
     }
+
     .nav-menu .nav_a {
         align-items: start;
     }
-    .sea{
+
+    .sea {
         display: flex;
         flex-wrap: wrap;
     }
+
     #searchform {
-      
-        max-width: inherit; 
+
+        max-width: inherit;
+    }
+
+    .dash-board img {
+        width: 80px;
+
+        height: 80px;
+    }
+
+    .com-details img {
+        width: 55px;
+
+        height: 55px;
+    }
+
+    .table-border .bor-bot {
+        border: 1px solid #ddd;
+        padding: 10px;
+    }
+
+    .head-bar {
+        display: none;
     }
 }
 

@@ -94,6 +94,12 @@ include('templates/header.php') ?>
                         </div>
                     </div>
                 </div>
+                <div class="bl_en my-3 ">
+                    <h5>Grow your career with us!</h5>
+                    <div class="re_ser my-3">
+                        <a href=" " data-bs-toggle="modal" data-bs-target="#job-pop" class="btn-des">Enroll now</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
