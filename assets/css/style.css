@@ -403,8 +403,8 @@ footer {
 
 .featur-job .img-bg img {
     padding: 10px;
-    width: 70px !important;
-    height: 70px;
+    width: 100% !important;
+    /* height: 70px; */
     background: #fff;
 }
 
@@ -412,11 +412,15 @@ footer {
     opacity: .7;
 }
 
-.featur-job .icon-det span {
+.icon-det a {
+    color: #000;
+}
+
+.icon-det span {
     color: #008DD2;
 }
 
-.featur-job .icon-det h6 {
+.icon-det h6 {
     margin: 0;
     padding: 0 10px;
     font-size: 14px;
@@ -809,13 +813,15 @@ footer {
 }
 
 .dash-board .nav-link.active,
-.profile-design .nav-link.active {
+.profile-design .nav-link.active,
+.tab-design .nav-link.active {
     background-color: rgb(25 103 210 / 10%) !important;
     color:
         #0278b3 !important;
 }
 
-.profile-design .nav-link {
+.profile-design .nav-link,
+.tab-design .nav-link {
     color:
         #000 !important;
 }
@@ -910,8 +916,104 @@ footer {
     color: #F9AB00;
 }
 
+.job-status a span {
+    color: #348fda;
+    background: #e8f0fa;
+    padding: 9px;
+    border-radius: 5px;
+}
+
 .table-border .bor-bot {
     border-bottom: 1px solid #ddd;
 }
- 
+
+.failed-design {
+    color: #f11606;
+}
+
+.meeting-design {
+    box-shadow: 0 3px 10px #008dd13d;
+    background: #fff;
+    padding: 20px 15px;
+    border-radius: 10px;
+
+}
+
+.quest-design ul li {
+    font-size: 14px;
+    margin: 8px 0;
+}
+
+.quest-design ul {
+    padding-left: 2rem !important;
+    list-style: upper-alpha !important;
+}
+
+.quest-design h6 {
+    height: 40px;
+    font-family: "f2";
+}
+
+.call-back {
+    padding: 30px 25px;
+    border: 1px solid #008dd129;
+    box-shadow: 0 7px 20px #008dd11a;
+    text-align: center;
+}
+
 /* dashboard end */
+/* recuirt */
+.recuit-des h6 {
+    margin: 0;
+    padding-left: 5px;
+    font-family: "f2";
+    font-size: 18px;
+}
+
+.closed-color h6 {
+    background: #ffcdca;
+    margin: 0;
+    padding: 6px 8px;
+    border-radius: 12px;
+    text-align: center;
+    display: inline-block;
+    color: #e40000;
+
+}
+
+.job-status p {
+    margin: 0;
+}
+
+.subscr-des img {
+    width: 100%;
+}
+
+.subscr-des {
+    padding: 30px 25px;
+    border: 1px solid #008dd129;
+    box-shadow: 0 7px 20px #008dd11a;
+    border-radius: 13px;
+}
+
+.my-plan p {
+    margin: 0;
+    background-color: #008DD2;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 7px;
+    color: #fff;
+}
+
+.plans-des p {
+    font-size: 15px;
+    opacity: .7;
+    margin: 3px 0;
+}
+
+.plans-des h6 {
+    font-family: "f3";
+    color: #008DD2;
+}
+
+/* recuirt end */

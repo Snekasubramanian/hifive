@@ -1,24 +1,30 @@
 <?php $file_name = "job";
 include('templates/header.php') ?>
-<?php include('templates/navbar.php') ?>
+<?php include('templates/login-nav.php') ?>
 <div class="banner-designs">
     <div class="d-flex-al-jc">
         <div class="col-md-7 col-12 px-3 my-2">
             <div class="featur-job bg-white d-flex-wrap">
                 <div class=" col-md-8 col-12 px-2">
-                    <div class="d-flex-al">
-                        <div class="img-bg">
+                    <div class="d-flex-wrap">
+                        <div class="img-bg col-2">
                             <img src="./assets/img/job-logo.png" alt="job-logo">
                         </div>
-                        <div class="job-comp px-2">
+                        <div class="job-comp px-2 col-8">
                             <h5>Software Engineering</h5>
                             <p>Software Pvt.Ltd.</p>
+                        </div>
+                        <div class="failed-design col-2 d-flex ">
+                            <span class="material-symbols-outlined">
+                                verified
+                            </span>
+                            <h6>Failed</h6>
                         </div>
                     </div>
                 </div>
                 <div class=" col-md-4 col-12 px-2">
-                    <div class="mt-4 text-md-end ">
-                        <a href="" data-bs-toggle="modal" data-bs-target="#job-pop" class="btn-des">Apply Now</a>
+                    <div class="mt-4 text-end ">
+                        <a href="" class="btn-des">Applied</a>
 
                     </div>
                 </div>
@@ -68,7 +74,7 @@ include('templates/header.php') ?>
                 </li>
             </ul>
             <div class="mt-4 ">
-                <a href="" data-bs-toggle="modal" data-bs-target="#job-pop" class="btn-des">Apply Now</a>
+                <a href="" class="btn-des">Applied</a>
             </div>
         </div>
     </div>

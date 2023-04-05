@@ -1,6 +1,6 @@
 <?php $file_name = "job";
 include('templates/header.php') ?>
-<?php include('templates/navbar.php') ?>
+<?php include('templates/login-nav.php') ?>
 <div class="banner-designs">
     <div class="d-flex-al-jc">
         <div class="col-md-7 col-12 px-3 my-2">
@@ -17,29 +17,41 @@ include('templates/header.php') ?>
                     </div>
                 </div>
                 <div class=" col-md-4 col-12 px-2">
-                    <div class="mt-4 text-md-end ">
-                        <a href="" data-bs-toggle="modal" data-bs-target="#job-pop" class="btn-des">Apply Now</a>
+                    <div class="my-3 text-md-end ">
+                        <a href="" class="btn-des">Applied</a>
 
                     </div>
                 </div>
-                <div class="d-flex-al my-3">
+                <div class="d-flex-al my-3 w-100">
                     <div class="icon-det d-flex-al">
                         <span class="material-symbols-outlined">
                             business_center
                         </span>
                         <h6> UI/UX Designer</h6>
                     </div>
-                    <div class="icon-det d-flex-al">
-                        <span class="material-symbols-outlined">
-                            schedule
-                        </span>
-                        <h6> 8 months ago</h6>
-                    </div>
+                    
                     <div class="icon-det d-flex-al">
                         <span class="material-symbols-outlined">
                             location_on
                         </span>
                         <h6> Chennai</h6>
+                    </div>
+                </div>
+                <div class="d-flex-al my-3">
+
+                    <div class="icon-det d-flex-al">
+                        <a href="https://meet.google.com/kve-pnnk-apf" class="d-flex-al">
+                            <span class="material-symbols-outlined">
+                                video_call
+                            </span>
+                            <h6> Interview schedule</h6>
+                        </a>
+                    </div>
+                    <div class="icon-det d-flex-al">
+                        <span class="material-symbols-outlined">
+                            schedule
+                        </span>
+                        <h6> 9.40am-12.00pm</h6>
                     </div>
                 </div>
             </div>
@@ -68,7 +80,7 @@ include('templates/header.php') ?>
                 </li>
             </ul>
             <div class="mt-4 ">
-                <a href="" data-bs-toggle="modal" data-bs-target="#job-pop" class="btn-des">Apply Now</a>
+                <a href="" class="btn-des">Applied</a>
             </div>
         </div>
     </div>
