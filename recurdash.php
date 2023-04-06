@@ -233,7 +233,7 @@ include('templates/header.php') ?>
                             </div>
                         </div>
                     </div>
-                    <div class="table-border"> 
+                    <div class="table-border">
                         <div class="d-flex-al bor-bot my-2">
                             <div class="col-md-5 col-12 px-2 my-2">
                                 <div class="d-flex-wrap com-details">
@@ -311,7 +311,8 @@ include('templates/header.php') ?>
             </div>
             <div id="shortlist" class=" tab-pane ">
                 <div class="apli-design">
-                    <h4>Applicant</h4>
+                    <h4> Shortlist Candidate
+                    </h4>
                     <div class="d-flex-wrap head-bar my-3">
                         <div class="col-md-6 col-12 ">
                             <div class="job-head">
