@@ -1,4 +1,4 @@
-<?php $file_name = "candash";
+<?php $file_name = "recdash";
 include('templates/header.php') ?>
 <?php include('templates/login-nav.php') ?>
 <div class="my-3 w-95 d-flex-wrap">
@@ -126,8 +126,11 @@ include('templates/header.php') ?>
             </div>
             <div id="post" class=" tab-pane ">
                 <div class="apli-design">
-                    <h4> Post Jobs</h4>
-                    <div class="d-flex-wrap head-bar my-2">
+                    <div class="d-flex-al-jb">
+                        <h4> Post Jobs</h4>
+                        <a href="add-post.php" class="btn-des">+ Add</a>
+                    </div>
+                    <div class="d-flex-wrap head-bar my-3">
                         <div class="col-md-5 col-12 ">
                             <div class="job-head">
                                 <h6>Job Title</h6>
@@ -230,7 +233,7 @@ include('templates/header.php') ?>
                             </div>
                         </div>
                     </div>
-                    <div class="table-border">
+                    <div class="table-border"> 
                         <div class="d-flex-al bor-bot my-2">
                             <div class="col-md-5 col-12 px-2 my-2">
                                 <div class="d-flex-wrap com-details">
@@ -253,14 +256,17 @@ include('templates/header.php') ?>
 
                             <div class="col-sm-3 col-12 px-2 my-2">
                                 <div class="job-status">
-                                    <h6> Rejected</h6>
+                                    <h6 class="text-success"> Approved</h6>
                                     Applied:2023-03-06
                                 </div>
                             </div>
                             <div class="col-sm-4 col-12 px-2 my-2">
                                 <div class="job-status">
-                                    <p>ayushanand03532@gmail.com</p>
-                                    <p>9934830199</p>
+                                    <a href="can-list.php">
+                                        <span class="material-symbols-outlined">
+                                            visibility
+                                        </span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -292,8 +298,11 @@ include('templates/header.php') ?>
                             </div>
                             <div class="col-sm-4 col-12 px-2 my-2">
                                 <div class="job-status">
-                                    <p>ayushanand03532@gmail.com</p>
-                                    <p>9934830199</p>
+                                    <a href="can-list.php">
+                                        <span class="material-symbols-outlined">
+                                            visibility
+                                        </span>
+                                    </a>
                                 </div>
                             </div>
                         </div>

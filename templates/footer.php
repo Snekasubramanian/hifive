@@ -186,3 +186,54 @@
     </div>
 </div>
 <!-- modal -->
+<!-- job apply now modal -->
+<div class="modal fade" id="schedule-pop">
+    <div class="modal-dialog modal-dialog-centered  ">
+        <div class="modal-content">
+            <button type="button" data-bs-dismiss="modal" class="clse_btn">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="modal-body">
+
+                <div class="con_rig">
+                    <h4>Interview schedule</h4>
+                    <form class="mt-3" action="">
+                        <div class="d-flex flex-wrap">
+                            <div class="  col-12 px-2 mb-2">
+                                <label for="">Type</label>
+                                <select class="form-select">
+                                    <option>Round 1</option>
+                                    <option>Round 2</option>
+                                    <option>Round 3</option>
+                                </select>
+                            </div>
+                            <div class="  col-12 px-2 mb-2">
+                                <label for="">Date</label>
+                                <input type="date" class="form-control" placeholder="Enter your Email" name="" id="">
+                            </div>
+                            <div class="  col-12 px-2 mb-2">
+                                <label for="">Time</label>
+                                <input type="text" class="form-control" placeholder="12.00 am" name="" id="">
+                            </div>
+                            <div class="  col-12 px-2 mb-2">
+                                <label for="">Time Duration</label>
+                                <input type="text" class="form-control" placeholder="Minutes" name="" id="">
+                            </div>
+
+                            <div class="col-12 px-2 mb-2">
+                                <label for="">Message</label>
+                                <textarea class="form-control" rows="3"  placeholder=" Message" id="comment"></textarea>
+                            </div>
+                            <div class="sub_mit ps-2">
+                                <input class="btn-des" type="submit">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- modal -->

@@ -50,8 +50,8 @@ include('templates/header.php') ?>
                                     <input type="email" placeholder=" Recruiter e-mail ID" class="form-control">
                                 </div>
                                 <div class="mt-4 password-container">
-                                    <input type="password" id="myInput" placeholder="Password..." class="form-control">
-                                    <i class="fa-solid fa-eye" onclick="myFunction()"></i>
+                                    <input type="password" id="myInputs" placeholder="Password..." class="form-control">
+                                    <i class="fa-solid fa-eye" onclick="myFunctions()"></i>
                                 </div>
                                 <div class="mt-4">
                                     <h6> <a href="forgot.php">Forgot Password ?</a></h6>

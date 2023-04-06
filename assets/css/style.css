@@ -88,6 +88,11 @@ ul {
     flex-wrap: wrap;
     align-items: start;
 }
+.d-flex-ae {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+}
 
 .d-flex-jc {
     display: flex;
@@ -119,6 +124,17 @@ ul {
 /* // button design star // */
 .btn-des {
     background: #008DD2;
+    color: #fff !important;
+    border-radius: 7px;
+    padding: 8px 18px;
+    transition: .3s all;
+    border: 0;
+    font-size: 15px;
+    box-shadow: 0 3px 10px #008dd13d;
+    font-family: "f2";
+}
+.reg-btn {
+    background: #d20012;
     color: #fff !important;
     border-radius: 7px;
     padding: 8px 18px;
@@ -186,7 +202,7 @@ ul {
 }
 
 .nav_a .nav-link.active {
-    color: #008DD2;
+    color: #008DD2 !important;
 }
 
 /* navbar design end */
@@ -530,7 +546,7 @@ footer {
 }
 
 .requit-bg .rec-conts img {
-    width: 50%;
+    width: 75%;
 }
 
 .requit-bg .rec-conts {
@@ -1017,3 +1033,9 @@ footer {
 }
 
 /* recuirt end */
+/* add post */
+.add-post h4{
+    color: #008DD2;
+    text-align: center;
+}
+/* add post end */

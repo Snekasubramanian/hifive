@@ -69,7 +69,12 @@ include('templates/header.php') ?>
                     </span>Be involved in every step of the product design cycle from discovery to developer handoff and user acceptance testing.
                 </li>
             </ul>
-             
+            <div class="my-3 d-flex-wrap">
+                <div class="px-2">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#schedule-pop" class="btn-des">Schedule Interview</a>
+                </div>
+                <div class="px-2"> <a href="" class="reg-btn ">Reject</a></div>
+            </div>
         </div>
     </div>
     <div class="col-md-5 col-12 px-3 my-3">
@@ -114,7 +119,7 @@ include('templates/header.php') ?>
                 </div>
             </div>
             <div class="skils-det my-3">
-                <h4>  Skills </h4>
+                <h4> Skills </h4>
                 <ul class="d-flex-al">
                     <li>HTML</li>
                     <li>CSS</li>

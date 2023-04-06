@@ -12,15 +12,14 @@ include('templates/header.php') ?>
                 <div class="search-container my-3">
                     <form action="">
                         <div class="sea d-flex">
-                            <select class="form-control form-select" name="branch" required>
+                            <!-- <select class="form-control form-select" name="branch" required>
                                 <option selected disabled>Location</option>
                                 <option value="Trichy">Trichy</option>
                                 <option value="Chennai">Chennai</option>
                                 <option value="Madurai">Madurai</option>
-                            </select>
+                            </select> -->
                             <div id="searchform">
-                                <input type="text" id="search-bar" autocomplete="off" type="text" class="form-control"
-                                    placeholder="Job title" />
+                                <input type="text" id="search-bar" autocomplete="off" type="text" class="form-control" placeholder="Job title" />
                                 <ul class="output" style="display: none"></ul>
                                 <button class="btn-sea d-sm-block d-none" type="submit">
                                     Find Now
@@ -174,20 +173,43 @@ include('templates/header.php') ?>
 </div>
 <!-- blog design  end -->
 <!-- Recruiting? -->
-<div class="d-flex-al my-3 w-90 requit-bg">
-    <div class="col-md-6 col-12 px-3 my-2">
-        <div class="rec-cont">
-            <h5>Recruiting?</h5>
-            <p>Advertise your jobs to millions of monthly users and search 15.8 million CVs in our database.</p>
-            <div class="mt-4  ">
-                <a href="login.php" class="btn-des"> Start Recruiting Now</a>
-            </div>
+<div class="d-flex-al my-3 w-90 ">
+    <div class="col-md-6 col-12 px-2 my-2 ">
+        <div class="d-flex-ae requit-bg">
+            <div class="col-md-6 col-12 p-3 my-2">
+                <div class="rec-cont">
+                    <h5>Candidate?</h5>
+                    <p>Advertise your jobs to millions of monthly users and search 15.8 million CVs in our database.</p>
+                    <div class="mt-4  ">
+                        <a href="login.php" class="btn-des"> Start Candidate Now</a>
+                    </div>
 
+                </div>
+            </div>
+            <div class="col-md-6 col-12 ps-3  ">
+                <div class="rec-conts">
+                    <img src="./assets/img/rec.png" alt="Recruiting">
+                </div>
+            </div>
         </div>
     </div>
-    <div class="col-md-6 col-12 px-3  ">
-        <div class="rec-conts">
-            <img src="./assets/img/rec.png" alt="Recruiting">
+    <div class="col-md-6 col-12 px-2 my-2">
+        <div class="d-flex-ae  requit-bg">
+            <div class="col-md-6 col-12 p-3 my-2">
+                <div class="rec-cont">
+                    <h5>Recruiting?</h5>
+                    <p>Advertise your jobs to millions of monthly users and search 15.8 million CVs in our database.</p>
+                    <div class="mt-4  ">
+                        <a href="login.php" class="btn-des"> Start Recruiting Now</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-6 col-12 ps-3  ">
+                <div class="rec-conts">
+                    <img src="./assets/img/rec.png" alt="Recruiting">
+                </div>
+            </div>
         </div>
     </div>
 </div>

@@ -8,13 +8,13 @@ include('templates/header.php') ?>
                 <h3 class="text-center">Join us & Explore Thousands of Jobs</h3>
                 <div class="search-container my-3">
                     <form action="">
-                        <div class="sea d-flex">
-                            <select class="form-control form-select" name="branch" required>
+                        <div class="sea d-flex-al-jc">
+                            <!-- <select class="form-control form-select" name="branch" required>
                                 <option selected disabled>Location</option>
                                 <option value="Trichy">Trichy</option>
                                 <option value="Chennai">Chennai</option>
                                 <option value="Madurai">Madurai</option>
-                            </select>
+                            </select> -->
                             <div id="searchform">
                                 <input type="text" id="search-bar" autocomplete="off" type="text" class="form-control" placeholder="Job title" />
                                 <ul class="output" style="display: none"></ul>
