@@ -740,8 +740,8 @@ footer {
 
 /* faq end */
 /* register */
-.form-des .from-lab {
-    margin: 5px 0;
+.from-lab {
+    margin: 5px 0 10px;
     font-family: "f2";
 }
 

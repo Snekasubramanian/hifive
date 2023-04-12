@@ -119,6 +119,7 @@
         showPage(parseInt($(this).text()))
     });
 </script>
+
 <script>
     pageSize = 5;
 
