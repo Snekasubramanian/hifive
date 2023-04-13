@@ -62,6 +62,15 @@ include('templates/header.php') ?>
                         Subscribition
                     </a>
                 </li>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="pill" href="#selected">
+                        <span class="material-symbols-outlined">
+                            group
+                        </span>
+                        Selected Candidate
+                    </a>
+                </li>
 
             </ul>
 
@@ -127,7 +136,19 @@ include('templates/header.php') ?>
             <div id="post" class=" tab-pane ">
                 <div class="apli-design">
                     <div class="d-flex-al-jb">
-                        <h4> Post Jobs</h4>
+                        <div class="d-flex-al">
+                            <h4> Post Jobs</h4>
+                            <div class="dropdown px-2">
+                                <a class="btn-des   dropdown-toggle" data-bs-toggle="dropdown">
+                                    Filter
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Link 1</a></li>
+                                    <li><a class="dropdown-item" href="#">Link 2</a></li>
+                                    <li><a class="dropdown-item" href="#">Link 3</a></li>
+                                </ul>
+                            </div>
+                        </div>
                         <a href="add-post.php" class="btn-des">+ Add</a>
                     </div>
                     <div class="d-flex-wrap head-bar my-3">
@@ -153,6 +174,7 @@ include('templates/header.php') ?>
                         </div>
                     </div>
                     <div class="table-border">
+
                         <div class="d-flex-al bor-bot my-2">
                             <div class="col-md-5 col-12 px-2 my-2">
                                 <div class="recuit-des ">
@@ -166,37 +188,11 @@ include('templates/header.php') ?>
                                 </div>
                             </div>
                             <div class="col-sm-3 col-12 px-2 my-2">
-                                <div class="job-heads">
-                                    <h6>3 Application</h6>
-                                </div>
-                            </div>
-                            <div class="col-sm-2 col-12 px-2 my-2">
-                                <div class="rec-status closed-color">
-                                    <h6> Closed</h6>
-                                </div>
-                            </div>
-                            <div class="col-sm-2 col-12 px-2 my-2">
-                                <div class="rect-status ">
-                                    <h6>2023-04-04</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="d-flex-al bor-bot my-2">
-                            <div class="col-md-5 col-12 px-2 my-2">
-                                <div class="recuit-des ">
-                                    <div class="d-flex-al mb-2">
-                                        <span class="material-symbols-outlined">
-                                            business_center
-                                        </span>
-                                        <h6>sales Executive</h6>
+                                <a href="applicant-details.php">
+                                    <div class="job-heads">
+                                        <h6>3 Application</h6>
                                     </div>
-                                    <p>Marketing & Sales / Remote</p>
-                                </div>
-                            </div>
-                            <div class="col-sm-3 col-12 px-2 my-2">
-                                <div class="job-heads">
-                                    <h6>3 Application</h6>
-                                </div>
+                                </a>
                             </div>
                             <div class="col-sm-2 col-12 px-2 my-2">
                                 <div class="rec-status closed-color">
@@ -209,16 +205,35 @@ include('templates/header.php') ?>
                                 </div>
                             </div>
                         </div>
+
+
                     </div>
                 </div>
             </div>
             <div id="job" class=" tab-pane ">
                 <div class="apli-design">
-                    <h4> Applicants</h4>
+                    <div class="d-flex-al-jb">
+                        <h4> Applicants</h4>
+                        <div class="dropdown px-2">
+                            <a class="btn-des   dropdown-toggle" data-bs-toggle="dropdown">
+                                Filter
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Link 1</a></li>
+                                <li><a class="dropdown-item" href="#">Link 2</a></li>
+                                <li><a class="dropdown-item" href="#">Link 3</a></li>
+                            </ul>
+                        </div>
+                    </div>
                     <div class="d-flex-wrap head-bar my-3">
-                        <div class="col-md-5 col-12 ">
+                        <div class="col-md-3 col-12 ">
                             <div class="job-head">
-                                <h6>Name</h6>
+                                <h6>ID</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-12 ">
+                            <div class="job-head">
+                                <h6>Position</h6>
                             </div>
                         </div>
 
@@ -227,7 +242,7 @@ include('templates/header.php') ?>
                                 <h6> Status</h6>
                             </div>
                         </div>
-                        <div class="col-md-4 col-12  ">
+                        <div class="col-md-3 col-12  ">
                             <div class="job-head">
                                 <h6> Infomation</h6>
                             </div>
@@ -235,32 +250,33 @@ include('templates/header.php') ?>
                     </div>
                     <div class="table-border">
                         <div class="d-flex-al bor-bot my-2">
-                            <div class="col-md-5 col-12 px-2 my-2">
+                            <div class="col-md-3 col-12 px-2 my-2">
                                 <div class="d-flex-wrap com-details">
-                                    <div class="   col-3 px-2">
-                                        <img src="./assets/img/can.png" alt="">
-                                    </div>
+
                                     <div class="  col-9 job-company px-2">
                                         <h6>
-                                            Candidate</h6>
-                                        <div class="d-flex-al op-des">
-                                            <span class="material-symbols-outlined">
-                                                business_center
-                                            </span>
-                                            <p>Design</p>
-                                        </div>
+                                            #12349</h6>
+
                                     </div>
                                 </div>
 
                             </div>
 
                             <div class="col-sm-3 col-12 px-2 my-2">
+                                <div class="d-flex-al op-des">
+                                    <span class="material-symbols-outlined">
+                                        business_center
+                                    </span>
+                                    <p>Design</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-12 px-2 my-2">
                                 <div class="job-status">
                                     <h6 class="text-success"> Approved</h6>
                                     Applied:2023-03-06
                                 </div>
                             </div>
-                            <div class="col-sm-4 col-12 px-2 my-2">
+                            <div class="col-sm-3 col-12 px-2 my-2">
                                 <div class="job-status">
                                     <a href="can-list.php">
                                         <span class="material-symbols-outlined">
@@ -271,32 +287,35 @@ include('templates/header.php') ?>
                             </div>
                         </div>
                         <div class="d-flex-al bor-bot my-2">
-                            <div class="col-md-5 col-12 px-2 my-2">
+                            <div class="col-md-3 col-12 px-2 my-2">
                                 <div class="d-flex-wrap com-details">
-                                    <div class="   col-3 px-2">
+                                    <!-- <div class="   col-3 px-2">
                                         <img src="./assets/img/can.png" alt="">
-                                    </div>
+                                    </div> -->
                                     <div class="  col-9 job-company px-2">
                                         <h6>
-                                            Candidate</h6>
-                                        <div class="d-flex-al op-des">
-                                            <span class="material-symbols-outlined">
-                                                business_center
-                                            </span>
-                                            <p>Design</p>
-                                        </div>
+                                            #12349</h6>
+
                                     </div>
                                 </div>
 
                             </div>
 
                             <div class="col-sm-3 col-12 px-2 my-2">
+                                <div class="d-flex-al op-des">
+                                    <span class="material-symbols-outlined">
+                                        business_center
+                                    </span>
+                                    <p>Design</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-12 px-2 my-2">
                                 <div class="job-status">
                                     <h6 class="text-success"> Approved</h6>
                                     Applied:2023-03-06
                                 </div>
                             </div>
-                            <div class="col-sm-4 col-12 px-2 my-2">
+                            <div class="col-sm-3 col-12 px-2 my-2">
                                 <div class="job-status">
                                     <a href="can-list.php">
                                         <span class="material-symbols-outlined">
@@ -306,17 +325,34 @@ include('templates/header.php') ?>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
             <div id="shortlist" class=" tab-pane ">
                 <div class="apli-design">
-                    <h4> Shortlist Candidate
-                    </h4>
+                    <div class="d-flex-al-jb">
+                        <h4> Applicants</h4>
+                        <div class="dropdown px-2">
+                            <a class="btn-des   dropdown-toggle" data-bs-toggle="dropdown">
+                                Filter
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Link 1</a></li>
+                                <li><a class="dropdown-item" href="#">Link 2</a></li>
+                                <li><a class="dropdown-item" href="#">Link 3</a></li>
+                            </ul>
+                        </div>
+                    </div>
                     <div class="d-flex-wrap head-bar my-3">
-                        <div class="col-md-6 col-12 ">
+                        <div class="col-md-3 col-12 ">
                             <div class="job-head">
-                                <h6>Name</h6>
+                                <h6>ID</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-12 ">
+                            <div class="job-head">
+                                <h6>Position</h6>
                             </div>
                         </div>
 
@@ -333,29 +369,32 @@ include('templates/header.php') ?>
                     </div>
                     <div class="table-border">
                         <div class="d-flex-al bor-bot my-2">
-                            <div class="col-md-6 col-12 px-2 my-2">
+                            <div class="col-md-3 col-12 px-2 my-2">
                                 <div class="d-flex-wrap com-details">
-                                    <div class="col-lg-2  mcol-3 px-2">
-                                        <img src="./assets/img/can.png" alt="">
-                                    </div>
-                                    <div class="col-md-8 col-9 job-company px-2">
-                                        <h6>Candidate</h6>
-                                        <div class="d-flex-al op-des">
-                                            <span class="material-symbols-outlined">
-                                                business_center
-                                            </span>
-                                            <p>Design</p>
-                                        </div>
+
+                                    <div class="  col-9 job-company px-2">
+                                        <h6>
+                                            #12349</h6>
+
                                     </div>
                                 </div>
 
+                            </div>
+
+                            <div class="col-sm-3 col-12 px-2 my-2">
+                                <div class="d-flex-al op-des">
+                                    <span class="material-symbols-outlined">
+                                        business_center
+                                    </span>
+                                    <p>Design</p>
+                                </div>
                             </div>
                             <div class="col-sm-3 col-12 px-2 my-2">
-                                <div class="job-heads">
-                                    <h6>July 20, 2021</h6>
+                                <div class="job-status">
+                                    <h6 class="text-success"> Approved</h6>
+                                    Applied:2023-03-06
                                 </div>
                             </div>
-
                             <div class="col-sm-3 col-12 px-2 my-2">
                                 <div class="job-status">
                                     <a href="can-list.php">
@@ -367,29 +406,34 @@ include('templates/header.php') ?>
                             </div>
                         </div>
                         <div class="d-flex-al bor-bot my-2">
-                            <div class="col-md-6 col-12 px-2 my-2">
+                            <div class="col-md-3 col-12 px-2 my-2">
                                 <div class="d-flex-wrap com-details">
-                                    <div class="col-lg-2  mcol-3 px-2">
+                                    <!-- <div class="   col-3 px-2">
                                         <img src="./assets/img/can.png" alt="">
-                                    </div>
-                                    <div class="col-md-8 col-9 job-company px-2">
-                                        <h6>Candidate</h6>
-                                        <div class="d-flex-al op-des">
-                                            <span class="material-symbols-outlined">
-                                                business_center
-                                            </span>
-                                            <p>Design</p>
-                                        </div>
+                                    </div> -->
+                                    <div class="  col-9 job-company px-2">
+                                        <h6>
+                                            #12349</h6>
+
                                     </div>
                                 </div>
 
+                            </div>
+
+                            <div class="col-sm-3 col-12 px-2 my-2">
+                                <div class="d-flex-al op-des">
+                                    <span class="material-symbols-outlined">
+                                        business_center
+                                    </span>
+                                    <p>Design</p>
+                                </div>
                             </div>
                             <div class="col-sm-3 col-12 px-2 my-2">
-                                <div class="job-heads">
-                                    <h6>July 20, 2021</h6>
+                                <div class="job-status">
+                                    <h6 class="text-success"> Approved</h6>
+                                    Applied:2023-03-06
                                 </div>
                             </div>
-
                             <div class="col-sm-3 col-12 px-2 my-2">
                                 <div class="job-status">
                                     <a href="can-list.php">
@@ -400,9 +444,11 @@ include('templates/header.php') ?>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
+
             <div id="meeting" class="tab-pane">
                 <div class="apli-design">
                     <h4>Meetings</h4>
@@ -410,11 +456,9 @@ include('templates/header.php') ?>
                         <div class="col-md-6 col-12 px-2 my-2">
                             <div class="meeting-design">
                                 <div class="d-flex-al com-details">
-                                    <div class="col-md-3  col-3 px-2">
-                                        <img src="./assets/img/can.png" alt="">
-                                    </div>
+
                                     <div class="col-md-8 col-9 job-company px-2">
-                                        <h6>Candidate</h6>
+                                        <h6>#12349</h6>
                                         <div class="d-flex-al op-des">
                                             <span class="material-symbols-outlined">
                                                 business_center
@@ -455,11 +499,11 @@ include('templates/header.php') ?>
                         <div class="col-md-6 col-12 px-2 my-2">
                             <div class="meeting-design">
                                 <div class="d-flex-al com-details">
-                                    <div class="col-md-3  col-3 px-2">
+                                    <!-- <div class="col-md-3  col-3 px-2">
                                         <img src="./assets/img/can.png" alt="">
-                                    </div>
+                                    </div> -->
                                     <div class="col-md-8 col-9 job-company px-2">
-                                        <h6>Candidate</h6>
+                                        <h6>#12349</h6>
                                         <div class="d-flex-al op-des">
                                             <span class="material-symbols-outlined">
                                                 business_center
@@ -500,11 +544,11 @@ include('templates/header.php') ?>
                         <div class="col-md-6 col-12 px-2 my-2">
                             <div class="meeting-design">
                                 <div class="d-flex-al com-details">
-                                    <div class="col-md-3  col-3 px-2">
+                                    <!-- <div class="col-md-3  col-3 px-2">
                                         <img src="./assets/img/can.png" alt="">
-                                    </div>
+                                    </div> -->
                                     <div class="col-md-8 col-9 job-company px-2">
-                                        <h6>Candidate</h6>
+                                        <h6>#12349</h6>
                                         <div class="d-flex-al op-des">
                                             <span class="material-symbols-outlined">
                                                 business_center
@@ -545,11 +589,11 @@ include('templates/header.php') ?>
                         <div class="col-md-6 col-12 px-2 my-2">
                             <div class="meeting-design">
                                 <div class="d-flex-al com-details">
-                                    <div class="col-md-3  col-3 px-2">
+                                    <!-- <div class="col-md-3  col-3 px-2">
                                         <img src="./assets/img/can.png" alt="">
-                                    </div>
+                                    </div> -->
                                     <div class="col-md-8 col-9 job-company px-2">
-                                        <h6>Candidate</h6>
+                                        <h6>#12349</h6>
                                         <div class="d-flex-al op-des">
                                             <span class="material-symbols-outlined">
                                                 business_center
@@ -587,6 +631,7 @@ include('templates/header.php') ?>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -641,6 +686,148 @@ include('templates/header.php') ?>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div id="selected" class=" tab-pane ">
+
+                <div class="apli-design">
+                    <h4>Selected Candidate</h4>
+                    <div class="d-flex-wrap head-bar my-3">
+                        <div class="col-md-3 col-12 ">
+                            <div class="job-head">
+                                <h6>ID</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-12 ">
+                            <div class="job-head">
+                                <h6>Position</h6>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-12  ">
+                            <div class="job-head">
+                                <h6> Status</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-12  ">
+                            <div class="job-head">
+                                <h6> Infomation</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-border">
+                        <div class="d-flex-al bor-bot my-2">
+                            <div class="col-md-3 col-12 px-2 my-2">
+                                <div class="d-flex-wrap com-details">
+
+                                    <div class="  col-9 job-company px-2">
+                                        <h6>
+                                            #12349</h6>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-sm-3 col-12 px-2 my-2">
+                                <div class="d-flex-al op-des">
+                                    <span class="material-symbols-outlined">
+                                        business_center
+                                    </span>
+                                    <p>Design</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-12 px-2 my-2">
+                                <div class="job-status">
+                                    <h6 class="text-success"> Approved</h6>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-12 px-2 my-2">
+                                <div class="job-status">
+                                    <a href="select-candidate.php">
+                                        <span class="material-symbols-outlined">
+                                            visibility
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex-al bor-bot my-2">
+                            <div class="col-md-3 col-12 px-2 my-2">
+                                <div class="d-flex-wrap com-details">
+
+                                    <div class="  col-9 job-company px-2">
+                                        <h6>
+                                            #12349</h6>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-sm-3 col-12 px-2 my-2">
+                                <div class="d-flex-al op-des">
+                                    <span class="material-symbols-outlined">
+                                        business_center
+                                    </span>
+                                    <p>Design</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-12 px-2 my-2">
+                                <div class="job-status">
+                                    <h6 class="text-success"> Approved</h6>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-12 px-2 my-2">
+                                <div class="job-status">
+                                    <a href="select-candidate.php">
+                                        <span class="material-symbols-outlined">
+                                            visibility
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex-al bor-bot my-2">
+                            <div class="col-md-3 col-12 px-2 my-2">
+                                <div class="d-flex-wrap com-details">
+
+                                    <div class="  col-9 job-company px-2">
+                                        <h6>
+                                            #12349</h6>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-sm-3 col-12 px-2 my-2">
+                                <div class="d-flex-al op-des">
+                                    <span class="material-symbols-outlined">
+                                        business_center
+                                    </span>
+                                    <p>Design</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-12 px-2 my-2">
+                                <div class="job-status">
+                                    <h6 class="text-success"> Approved</h6>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-12 px-2 my-2">
+                                <div class="job-status">
+                                    <a href="select-candidate.php">
+                                        <span class="material-symbols-outlined">
+                                            visibility
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>

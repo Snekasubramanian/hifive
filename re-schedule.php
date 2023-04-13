@@ -4,25 +4,13 @@ include('templates/header.php') ?>
 <div class="banner-designs">
     <div class="d-flex-al-jc">
         <div class="col-md-7 col-12 px-3 my-2">
-            <div class="featur-job bg-white d-flex-wrap">
-                <div class=" col-md-8 col-12 px-2">
-                    <div class="d-flex-wrap">
-                        <div class="img-bg col-2">
-                            <img src="./assets/img/can.png" alt="job-logo">
-                        </div>
-                        <div class="job-comp px-2 col-8">
-                            <h5>Candidate</h5>
-                            <p>UI/UX Designer</p>
-                        </div>
+            <div class="featur-job bg-white  ">
 
-                    </div>
+                <div class="job-comp px-2  ">
+                    <h5>#12349</h5>
+                    <p>UI/UX Designer</p>
                 </div>
-                <div class=" col-md-4 col-12 px-2">
-                    <div class="mt-4 text-end ">
-                        <a class="btn-des" href="./assets/img/resume.pdf" download> Download CV</a>
 
-                    </div>
-                </div>
                 <div class="d-flex-al my-3">
                     <div class="icon-det d-flex-al">
                         <span class="material-symbols-outlined">
@@ -43,10 +31,13 @@ include('templates/header.php') ?>
                         <h6> Chennai</h6>
                     </div>
                 </div>
+
             </div>
+
         </div>
 
     </div>
+
 </div>
 <div class="tab-design  w-95 my-3 ">
     <div class="call-back w-50">
