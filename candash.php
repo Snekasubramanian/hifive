@@ -55,6 +55,22 @@ include('templates/header.php') ?>
                         Schedule Meeting
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="pill" href="#result">
+                        <span class="material-symbols-outlined">
+                            fact_check
+                        </span>
+                        Result
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="pill" href="#subs">
+                        <span class="material-symbols-outlined">
+                            subscriptions
+                        </span>
+                        Subscribition
+                    </a>
+                </li>
 
             </ul>
 
@@ -396,9 +412,9 @@ include('templates/header.php') ?>
             </div>
             <div id="shortlist" class=" tab-pane  ">
                 <div class="apli-design">
-                    <h4>Applied Jobs</h4>
+                    <h4>Shortlist Jobs</h4>
                     <div class="d-flex-wrap head-bar my-3">
-                        <div class="col-md-6 col-12 ">
+                        <div class="col-md-5 col-12 ">
                             <div class="job-head">
                                 <h6>Job Title</h6>
                             </div>
@@ -409,7 +425,12 @@ include('templates/header.php') ?>
                             </div>
                         </div>
 
-                        <div class="col-md-3 col-12  ">
+                        <div class="col-md-2 col-12  ">
+                            <div class="job-head">
+                                <h6> Status</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-12  ">
                             <div class="job-head">
                                 <h6> Actions</h6>
                             </div>
@@ -417,7 +438,7 @@ include('templates/header.php') ?>
                     </div>
                     <div class="table-border">
                         <div class="d-flex-al bor-bot my-2">
-                            <div class="col-md-6 col-12 px-2 my-2">
+                            <div class="col-md-5 col-12 px-2 my-2">
                                 <div class="d-flex-wrap com-details">
                                     <div class="col-lg-2  mcol-3 px-2">
                                         <img src="./assets/img/y11.jpg" alt="">
@@ -439,8 +460,12 @@ include('templates/header.php') ?>
                                     <h6>July 20, 2021</h6>
                                 </div>
                             </div>
-
-                            <div class="col-sm-3 col-12 px-2 my-2">
+                            <div class="col-sm-2 col-12 px-2 my-2">
+                                <div class="job-heads stat-pending">
+                                    <h6>Failed</h6>
+                                </div>
+                            </div>
+                            <div class="col-sm-2 col-12 px-2 my-2">
                                 <div class="job-status">
                                     <a href="short-list.php">
                                         <span class="material-symbols-outlined">
@@ -640,6 +665,128 @@ include('templates/header.php') ?>
                             </div>
                         </div>
 
+                    </div>
+                </div>
+            </div>
+            <div id="result" class="tab-pane">
+            <div class="apli-design">
+                    <h4>Job Results</h4>
+                    <div class="d-flex-wrap head-bar my-3">
+                        <div class="col-md-5 col-12 ">
+                            <div class="job-head">
+                                <h6>Company Name</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-12">
+                            <div class="job-head">
+                                <h6> Result Date </h6>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 col-12  ">
+                            <div class="job-head">
+                                <h6> Status</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-12  ">
+                            <div class="job-head">
+                                <h6> Actions</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-border">
+                        <div class="d-flex-al bor-bot my-2">
+                            <div class="col-md-5 col-12 px-2 my-2">
+                                <div class="d-flex-wrap com-details">
+                                    <div class="col-lg-2  mcol-3 px-2">
+                                        <img src="./assets/img/y11.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-8 col-9 job-company px-2">
+                                        <h6>Finance Manager & Health Pvt Ltd.</h6>
+                                        <div class="d-flex-al op-des">
+                                            <span class="material-symbols-outlined">
+                                                business_center
+                                            </span>
+                                            <p>Design</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-12 px-2 my-2">
+                                <div class="job-heads">
+                                    <h6>July 20, 2021</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-12 px-2 my-2">
+                                <div class="job-heads stat-pending">
+                                    <h6>Rejected</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-12 px-2 my-2">
+                                <div class="job-status">
+                                    <a href="short-list.php">
+                                        <span class="material-symbols-outlined">
+                                            visibility
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div id="subs" class="tab-pane">
+                <div class="apli-design">
+                    <h4>Subscribition</h4>
+                    <div class="my-3 subscr-des d-flex-al">
+                        <div class="col-md-6 col-12 px-3 my-2">
+                            <img src="./assets/img/app2.png" alt="">
+                        </div>
+                        <div class="col-md-6 col-12 px-3 my-2">
+                            <div class="my-plan">
+                                <h5>My plan</h5>
+                                <h6>RS. 199 - 23 days</h6>
+                                <p>Expires on june 10,2023</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h4>View Plans</h4>
+                    <div class="my-3 subscr-des d-flex-al">
+                        <div class="col-md-4 col-12 px-3 my-2">
+                            <div class="plans-des">
+                                <p>Plan</p>
+                                <h6>₹ 159</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-12 px-3 my-2">
+                            <div class="plans-des">
+                                <p>Validate</p>
+                                <h6>26 Days</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-12 px-3 my-2">
+                            <a href="" class="btn-des">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="my-3 subscr-des d-flex-al">
+                        <div class="col-md-4 col-12 px-3 my-2">
+                            <div class="plans-des">
+                                <p>Plan</p>
+                                <h6>₹ 199</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-12 px-3 my-2">
+                            <div class="plans-des">
+                                <p>Validate</p>
+                                <h6>23 Days</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-12 px-3 my-2">
+                            <a href="" class="btn-des">Buy Now</a>
+                        </div>
                     </div>
                 </div>
             </div>

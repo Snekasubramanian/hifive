@@ -68,6 +68,9 @@
     .head-bar {
         display: none;
     }
+    .hh-grayBox{
+        padding: 30px 10px !important;
+    }
 }
 
 @media (max-width: 567px) {

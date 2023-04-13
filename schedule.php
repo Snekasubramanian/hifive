@@ -44,13 +44,16 @@ include('templates/header.php') ?>
 <div class="tab-design  w-95 my-3 ">
     <ul class="nav nav-pills justify-content-center" role="tablist">
         <li class="nav-item">
-            <a class="nav-link active" data-bs-toggle="pill" href="#mac">Round 1</a>
+            <a class="nav-link active" data-bs-toggle="pill" href="#mac">Type 1</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="pill" href="#paragraph">Round 2</a>
+            <a class="nav-link" data-bs-toggle="pill" href="#paragraph">Type 2</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="pill" href="#video">Round 3</a>
+            <a class="nav-link" data-bs-toggle="pill" href="#video">Type 3</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="pill" href="#call">Type 4</a>
         </li>
     </ul>
     <div class="tab-content my-4 w-95">
@@ -122,7 +125,8 @@ include('templates/header.php') ?>
                     </div>
 
                     <div class="mal-first col-md-6 col-12 px-3 my-2 ">
-                        <h6>6.A topic sentence is the central idea of each paragraph, usually appearing at the beginning of the paragraph.</h6>
+                        <h6>6.A topic sentence is the central idea of each paragraph, usually appearing at the beginning
+                            of the paragraph.</h6>
                         <ul>
                             <li> 5-7 </li>
                             <li> 6-8 </li>
@@ -134,7 +138,8 @@ include('templates/header.php') ?>
 
                 </div>
                 <div class="my-3">
-                    <a href=" " class="btn-des ">Submit </a>
+                    <a href=" " class="btn-des" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="Once you complete Type 1. Please press 'Next' Button for Type 2">Next</a>
                 </div>
             </div>
         </div>
@@ -150,7 +155,8 @@ include('templates/header.php') ?>
                             those to whom we owe our existence.</p>
                         <h6>Which statement best conveys the theme of this paragraph?</h6>
                         <ul>
-                            <li>Finding out about our ancestors is more interesting than researching the history of objects </li>
+                            <li>Finding out about our ancestors is more interesting than researching the history of
+                                objects </li>
                             <li> Genealogy is a study of people and their belongings in the past</li>
                             <li>Genealogy is a study of family history </li>
                             <li>Genealogical research can bring meaning and life to a family’s history.</li>
@@ -164,7 +170,8 @@ include('templates/header.php') ?>
                             those to whom we owe our existence.</p>
                         <h6>Which statement best conveys the theme of this paragraph?</h6>
                         <ul>
-                            <li>Finding out about our ancestors is more interesting than researching the history of objects </li>
+                            <li>Finding out about our ancestors is more interesting than researching the history of
+                                objects </li>
                             <li> Genealogy is a study of people and their belongings in the past</li>
                             <li>Genealogy is a study of family history </li>
                             <li>Genealogical research can bring meaning and life to a family’s history.</li>
@@ -178,7 +185,8 @@ include('templates/header.php') ?>
                             those to whom we owe our existence.</p>
                         <h6>Which statement best conveys the theme of this paragraph?</h6>
                         <ul>
-                            <li>Finding out about our ancestors is more interesting than researching the history of objects </li>
+                            <li>Finding out about our ancestors is more interesting than researching the history of
+                                objects </li>
                             <li> Genealogy is a study of people and their belongings in the past</li>
                             <li>Genealogy is a study of family history </li>
                             <li>Genealogical research can bring meaning and life to a family’s history.</li>
@@ -188,7 +196,8 @@ include('templates/header.php') ?>
 
                 </div>
                 <div class="my-3">
-                    <a href=" " class="btn-des ">Submit </a>
+                    <a href=" " class="btn-des" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="Once you complete Type 2. Please press 'Next' Button for Type 3">Next</a>
                 </div>
             </div>
         </div>
@@ -206,6 +215,48 @@ include('templates/header.php') ?>
                 </div>
             </div>
         </div>
+        <div id="call" class="tab-pane ">
+            <div class="call-back w-50">
+                <h3>Audio Call</h3>
+                <div class="d-flex-al-jc my-3">
+                    <span class="material-symbols-outlined">
+                        video_file
+                    </span>
+                    <h6 class="m-0">Interview schedule</h6>
+                </div>
+                <div class="my-3">
+                    <a href="https://meet.google.com/kve-pnnk-apf " class="btn-des ">Click Here </a>
+                </div>
+            </div>
+        </div>
     </div>
+
+
+
+            <div class="hh-grayBox">
+                <div class="d-flex justify-content-between">
+                    <div class="order-tracking completed">
+                        <span class="is-complete"></span>
+                        <p>Type 1<br><span>Completed</span></p>
+                    </div>
+                    <div class="order-tracking completed">
+                        <span class="is-complete"></span>
+                        <p>Type 2<br><span>Completed</span></p>
+                    </div>
+                    <div class="order-tracking">
+                        <span class="is-complete"></span>
+                        <p>Type 3<br><span>Pending</span></p>
+                    </div>
+                    <div class="order-tracking">
+                        <span class="is-complete"></span>
+                        <p>Type 4<br><span>Pending</span></p>
+                    </div>
+                </div>
+            </div>
+
+    <div class="my-5 text-center">
+        <a href=" " class="btn-des">Submit</a>
+    </div>
+
 </div>
 <?php include('templates/footer.php') ?>

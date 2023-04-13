@@ -6,7 +6,7 @@ include('templates/header.php') ?>
         <div class="col-md-7 col-12 px-3 my-2">
             <div class="featur-job bg-white d-flex-wrap">
                 <div class=" col-md-8 col-12 px-2">
-                    <div class="d-flex-wrap">
+                    <div class="d-flex-wrap align-items-center">
                         <div class="img-bg col-2">
                             <img src="./assets/img/job-logo.png" alt="job-logo">
                         </div>
@@ -14,7 +14,7 @@ include('templates/header.php') ?>
                             <h5>Software Engineering</h5>
                             <p>Software Pvt.Ltd.</p>
                         </div>
-                        <div class="failed-design col-2 d-flex ">
+                        <div class="failed-design col-2 d-flex align-items-center ">
                             <span class="material-symbols-outlined">
                                 verified
                             </span>
