@@ -679,7 +679,7 @@ include('templates/header.php') ?>
                         </div>
                         <div class="col-md-3 col-12">
                             <div class="job-head">
-                                <h6> Result Date </h6>
+                                <h6> Applied on </h6>
                             </div>
                         </div>
 
@@ -719,13 +719,55 @@ include('templates/header.php') ?>
                                 </div>
                             </div>
                             <div class="col-md-2 col-sm-4 col-12 px-2 my-2">
+                                <div class="job-heads stat-selected">
+                                    <h6>Selected</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-12 px-2 my-2">
+                                <div class="job-status">
+                                    <a href="result-view.php">
+                                        <span class="material-symbols-outlined">
+                                            visibility
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="table-border">
+                        <div class="d-flex-al bor-bot my-2">
+                            <div class="col-md-5 col-12 px-2 my-2">
+                                <div class="d-flex-wrap com-details">
+                                    <div class="col-lg-2  mcol-3 px-2">
+                                        <img src="./assets/img/y11.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-8 col-9 job-company px-2">
+                                        <h6>CustomerLabs Digital Solution</h6>
+                                        <div class="d-flex-al op-des">
+                                            <span class="material-symbols-outlined">
+                                                business_center
+                                            </span>
+                                            <p>UI/UX Designer</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-12 px-2 my-2">
+                                <div class="job-heads">
+                                    <h6>July 20, 2021</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-12 px-2 my-2">
                                 <div class="job-heads stat-pending">
                                     <h6>Rejected</h6>
                                 </div>
                             </div>
                             <div class="col-md-2 col-sm-4 col-12 px-2 my-2">
                                 <div class="job-status">
-                                    <a href="short-list.php">
+                                    <a href="result-view.php">
                                         <span class="material-symbols-outlined">
                                             visibility
                                         </span>
