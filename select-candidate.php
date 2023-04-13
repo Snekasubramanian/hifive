@@ -4,22 +4,13 @@ include('templates/header.php') ?>
 <div class="banner-designs">
     <div class="d-flex-al-jc">
         <div class="col-md-7 col-12 px-3 my-2">
-            <div class="featur-job bg-white d-flex-wrap">
-                <div class=" col-md-5 col-12 px-2">
-                    <div class="job-comp px-2  ">
-                        <h5>#12349</h5>
-                        <p>UI/UX Designer</p>
-                    </div>
+            <div class="featur-job bg-white  ">
+
+                <div class="job-comp px-2  ">
+                    <h5>#12349</h5>
+                    <p>UI/UX Designer</p>
                 </div>
-                <div class=" col-md-7 col-12 px-2">
-                    <div class="my-3 d-flex-wrap">
-                        <div class="px-2">
-                            <!-- <a href="" data-bs-toggle="modal" data-bs-target="#schedule-pop" class="btn-des">Schedule Interview</a> -->
-                            <a href="interview-schedule.php"  class="btn-des">Schedule Interview</a>
-                        </div>
-                        <div class="px-2"> <a href="" class="reg-btn ">Reject</a></div>
-                    </div>
-                </div>
+
                 <div class="d-flex-al my-3">
                     <div class="icon-det d-flex-al">
                         <span class="material-symbols-outlined">
@@ -51,25 +42,72 @@ include('templates/header.php') ?>
 <div class="job-detail d-flex-wrap my-3 w-95">
     <div class="col-md-7 col-12 px-3 my-3">
         <div class="job-content">
-            <h4>About Candidate</h4>
-            <p>Hello my name is Nicole Wells and web developer from Portland. In pharetra orci dignissim, blandit mi semper, ultricies diam. Suspendisse malesuada suscipit nunc non volutpat. Sed porta nulla id orci laoreet tempor non consequat enim. Sed vitae aliquam velit. Aliquam ante erat, blandit at pretium et, accumsan ac est. Integer vehicula rhoncus molestie. Morbi ornare ipsum sed sem condimentum, et pulvinar tortor luctus. Suspendisse condimentum lorem ut elementum aliquam.</p>
-            <h4>Work & Experience</h4>
+            <h4>Overview Candidate</h4>
             <ul>
-                <h5>Product Designer </h5>
+                <h5>Type -01</h5>
                 <li><span class="material-symbols-outlined">
                         check_small
-                    </span>Be involved in every step of the product design cycle from discovery to developer handoff and user acceptance testing.
+                    </span>
+                    MCQ- 98
                 </li>
+
+            </ul>
+            <ul>
+                <h5>Type -02</h5>
                 <li><span class="material-symbols-outlined">
                         check_small
-                    </span>Be involved in every step of the product design cycle from discovery to developer handoff and user acceptance testing.
+                    </span>
+                    READING COMPREHENSION PRACTICE TEST- 98
                 </li>
+
+            </ul>
+            <ul>
+                <h5>Type -03</h5>
                 <li><span class="material-symbols-outlined">
                         check_small
-                    </span>Be involved in every step of the product design cycle from discovery to developer handoff and user acceptance testing.
+                    </span>
+                    READING COMPREHENSION PRACTICE TEST- 98
                 </li>
+
+            </ul>
+        </div>
+        <div class="job-content">
+            <h4> Candidate Document</h4>
+            <ul>
+                <h5>Document -01</h5>
+                <li><span class="material-symbols-outlined">
+                        description
+                    </span>
+
+                    <a href="./assets/img/resume.pdf" download=""> 10th Marksheet</a>
+                </li>
+
+            </ul>
+            <ul>
+                <h5>Document -02</h5>
+                <li><span class="material-symbols-outlined">
+                        description
+                    </span>
+
+                    <a href="./assets/img/resume.pdf" download=""> 12th Marksheet</a>
+                </li>
+
+            </ul>
+            <ul>
+                <h5>Document -03</h5>
+                <li><span class="material-symbols-outlined">
+                        description
+                    </span>
+
+                    <a href="./assets/img/resume.pdf" download=""> college Marksheet</a>
+                </li>
+
             </ul>
 
+        </div>
+        <div class="upload-btn-wrapper my-3">
+            <button class="btn-des">Upload a Offer Letter</button>
+            <input type="file" name="myfile" />
         </div>
     </div>
     <div class="col-md-5 col-12 px-3 my-3">
