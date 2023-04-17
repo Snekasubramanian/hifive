@@ -152,12 +152,12 @@ include('templates/header.php') ?>
                         <a href="add-post.php" class="btn-des">+ Add</a>
                     </div>
                     <div class="d-flex-wrap head-bar my-3">
-                        <div class="col-md-5 col-12 ">
+                        <div class="col-md-4 col-12 ">
                             <div class="job-head">
                                 <h6>Job Title</h6>
                             </div>
                         </div>
-                        <div class="col-md-3 col-12  ">
+                        <div class="col-md-2 col-12  ">
                             <div class="job-head">
                                 <h6>Applications </h6>
                             </div>
@@ -172,11 +172,16 @@ include('templates/header.php') ?>
                                 <h6> Posted</h6>
                             </div>
                         </div>
+                        <div class="col-md-2 col-12  ">
+                            <div class="job-head">
+                                <h6> Action</h6>
+                            </div>
+                        </div>
                     </div>
                     <div class="table-border">
 
                         <div class="d-flex-al bor-bot my-2">
-                            <div class="col-md-5 col-12 px-2 my-2">
+                            <div class="col-md-4 col-12 px-2 my-2">
                                 <div class="recuit-des ">
                                     <div class="d-flex-al mb-2">
                                         <span class="material-symbols-outlined">
@@ -187,7 +192,7 @@ include('templates/header.php') ?>
                                     <p>Marketing & Sales / Remote</p>
                                 </div>
                             </div>
-                            <div class="col-sm-3 col-12 px-2 my-2">
+                            <div class="col-sm-2 col-12 px-2 my-2">
                                 <a href="applicant-details.php">
                                     <div class="job-heads">
                                         <h6>3 Application</h6>
@@ -202,6 +207,12 @@ include('templates/header.php') ?>
                             <div class="col-sm-2 col-12 px-2 my-2">
                                 <div class="rect-status ">
                                     <h6>2023-04-04</h6>
+                                </div>
+                            </div>
+                            <div class="col-sm-2 col-12 px-2 my-2">
+                                <div class="rect-status d-flex-wrap">
+                                    <a href="add-post.php" class="edit" title="Edit"><i class="ri-pencil-fill"></i></a>
+                                    <a href="" class="delete" title="Delete"><i class="ri-delete-bin-5-fill"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -272,7 +283,7 @@ include('templates/header.php') ?>
                             </div>
                             <div class="col-sm-3 col-12 px-2 my-2">
                                 <div class="job-status">
-                                    <h6 class="text-success"> Approved</h6>
+                                    <h6 class="text-warning"> pending</h6>
                                     Applied:2023-03-06
                                 </div>
                             </div>
@@ -311,7 +322,7 @@ include('templates/header.php') ?>
                             </div>
                             <div class="col-sm-3 col-12 px-2 my-2">
                                 <div class="job-status">
-                                    <h6 class="text-success"> Approved</h6>
+                                <h6 class="text-warning"> pending</h6>
                                     Applied:2023-03-06
                                 </div>
                             </div>
@@ -665,7 +676,7 @@ include('templates/header.php') ?>
                             </div>
                         </div>
                         <div class="col-md-4 col-12 px-3 my-2">
-                            <a href="" class="btn-des">Buy Now</a>
+                            <a href="" class="btn-des" data-bs-toggle="modal" data-bs-target="#buynow-pop">Buy Now</a>
                         </div>
                     </div>
                     <div class="my-3 subscr-des d-flex-al">
@@ -682,7 +693,7 @@ include('templates/header.php') ?>
                             </div>
                         </div>
                         <div class="col-md-4 col-12 px-3 my-2">
-                            <a href="" class="btn-des">Buy Now</a>
+                            <a href="" class="btn-des" data-bs-toggle="modal" data-bs-target="#buynow-pop">Buy Now</a>
                         </div>
                     </div>
                 </div>

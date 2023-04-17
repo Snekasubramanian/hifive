@@ -224,7 +224,7 @@
 
                             <div class="col-12 px-2 mb-2">
                                 <label for="">Message</label>
-                                <textarea class="form-control" rows="3"  placeholder=" Message" id="comment"></textarea>
+                                <textarea class="form-control" rows="3" placeholder=" Message" id="comment"></textarea>
                             </div>
                             <div class="sub_mit ps-2">
                                 <input class="btn-des" type="submit">
@@ -242,11 +242,142 @@
 <!-- tooltip starts -->
 
 <script>
-// Initialize tooltips
-var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-  return new bootstrap.Tooltip(tooltipTriggerEl)
-})
+    // Initialize tooltips
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
 </script>
 
 <!-- tooltip ends -->
+<!-- counter -->
+<script>
+    $('.counter').each(function() {
+        var $this = $(this),
+            countTo = $this.attr('data-count');
+
+        $({
+            countNum: $this.text()
+        }).animate({
+                countNum: countTo
+            },
+
+            {
+
+                duration: 1000,
+                easing: 'linear',
+                step: function() {
+                    $this.text(Math.floor(this.countNum));
+                },
+                complete: function() {
+                    $this.text(this.countNum);
+                    //alert('finished');
+                }
+
+            });
+
+
+
+    });
+</script>
+<!-- counter end -->
+<!-- job apply now modal -->
+<div class="modal fade" id="alert-pop">
+    <div class="modal-dialog modal-dialog-centered  ">
+        <div class="modal-content">
+            <button type="button" data-bs-dismiss="modal" class="clse_btn">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="modal-body">
+
+                <div class="con_rig text-center p-3">
+
+                    <span class="material-symbols-outlined">
+                        subscriptions
+                    </span>
+                    <h4 class="my-4">Kindly subscribe to apply on Job</h4>
+                    <div class="my-4  ">
+                        <a href="login.php" class="btn-des">Apply Now</a>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- modal -->
+<!-- job apply now modal -->
+<div class="modal fade" id="buynow-pop">
+    <div class="modal-dialog modal-dialog-centered  ">
+        <div class="modal-content">
+            <button type="button" data-bs-dismiss="modal" class="clse_btn">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="modal-body">
+
+                <div class="con_rig ">
+                    <h4>Subscriptions</h4>
+                    <div class="d-flex-wrap  ">
+                        <div class="col-6 px-2 my-2">
+                            <h6>UPI ID</h6>
+                        </div>
+                        <div class="col-6 px-2 my-2">
+                            <h5>Squareway@hdfcbank</h5>
+                        </div>
+                    </div>
+                    <div class="d-flex-wrap">
+                        <div class="col-6 px-2 my-2">
+                            <h6>UPI Number</h6>
+                        </div>
+                        <div class="col-6 px-2 my-2">
+                            <h5>9080839093</h5>
+                        </div>
+                    </div>
+                    <div class="d-flex-wrap">
+                        <div class="col-6 px-2 my-2">
+                            <h6>Net Banking</h6>
+                        </div>
+                        <div class="col-6 px-2 my-2">
+                            <h5>60909080839093</h5>
+                        </div>
+                    </div>
+                    <div class="d-flex-wrap">
+                        <div class="col-6 px-2 my-2">
+                            <h6>IFSC</h6>
+                        </div>
+                        <div class="col-6 px-2 my-2">
+                            <h5>HDFC00039390</h5>
+                        </div>
+                    </div>
+                    <form action="">
+                        <div class="   px-2 my-2">
+                            <label for="" class="my-2"> Transaction ID</label>
+                            <input type="text" class="form-control" placeholder="Enter Transaction ID" name="" id="">
+                        </div>
+
+                        <div class="sub_mit ps-2">
+                            <input class="btn-des" type="submit">
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- modal -->
+<!-- delete -->
+<script>
+    $(document).ready(function() {
+        $(document).on("click", ".delete", function() {
+            $(this).parents(".bor-bot").remove();
+            $(".add-new").removeAttr("disabled");
+        });
+    });
+</script>
+<!-- delete end-->
+ 

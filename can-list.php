@@ -15,7 +15,7 @@ include('templates/header.php') ?>
                     <div class="my-3 d-flex-wrap">
                         <div class="px-2">
                             <!-- <a href="" data-bs-toggle="modal" data-bs-target="#schedule-pop" class="btn-des">Schedule Interview</a> -->
-                            <a href="interview-schedule.php"  class="btn-des">Schedule Interview</a>
+                            <a href="interview-schedule.php"  class="btn-des">Shortlist</a>
                         </div>
                         <div class="px-2"> <a href="" class="reg-btn ">Reject</a></div>
                     </div>

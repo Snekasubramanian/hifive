@@ -169,23 +169,19 @@ include('templates/header.php') ?>
                                         <div class="d-flex-wrap">
                                             <div class="mt-2 col-md-6 col-12 px-2">
                                                 <label for="" class="from-lab">Full Name </label>
-                                                <input type="name" placeholder="Enter your Full Name "
-                                                    class="form-control">
+                                                <input type="name" placeholder="Enter your Full Name " class="form-control">
                                             </div>
                                             <div class="mt-2 col-md-6 col-12 px-2">
                                                 <label for="" class="from-lab">E-mail ID </label>
-                                                <input type="email" placeholder="Enter your E-mail ID"
-                                                    class="form-control">
+                                                <input type="email" placeholder="Enter your E-mail ID" class="form-control">
                                             </div>
                                             <div class="mt-2 col-md-6 col-12 px-2">
                                                 <label for="" class="from-lab">Phone Number</label>
-                                                <input type="number" placeholder="Enter your Phone Number"
-                                                    class="form-control">
+                                                <input type="number" placeholder="Enter your Phone Number" class="form-control">
                                             </div>
                                             <div class="mt-2 col-md-6 col-12 px-2">
                                                 <label for="" class="from-lab">Date of Birth </label>
-                                                <input type="date" placeholder="Enter your Full Name "
-                                                    class="form-control">
+                                                <input type="date" placeholder="Enter your Full Name " class="form-control">
                                             </div>
                                             <div class="mt-2 col-md-6 col-12 px-2">
                                                 <label for="" class="from-lab">Gender </label>
@@ -202,31 +198,26 @@ include('templates/header.php') ?>
                                             </div>
                                             <div class="mt-2 col-md-6 col-12 px-2">
                                                 <label for="" class="from-lab">Qualification </label>
-                                                <input type="text" placeholder="Enter your Qualification "
-                                                    class="form-control">
+                                                <input type="text" placeholder="Enter your Qualification " class="form-control">
 
                                             </div>
                                             <div class="mt-2 col-md-6 col-12 px-2">
                                                 <label for="" class="from-lab">Salary </label>
-                                                <input type="text" placeholder="Enter your Expatance Salary "
-                                                    class="form-control">
+                                                <input type="text" placeholder="Enter your Expatance Salary " class="form-control">
 
                                             </div>
                                             <div class="mt-2 col-md-6 col-12 px-2">
                                                 <label for="" class="from-lab">Job Title </label>
-                                                <input type="text" placeholder="Enter your Job Title"
-                                                    class="form-control">
+                                                <input type="text" placeholder="Enter your Job Title" class="form-control">
 
                                             </div>
                                             <div class="mt-2 col-md-6 col-12 px-2">
                                                 <label for="" class="from-lab">Location </label>
-                                                <input type="text" placeholder="Enter your Location"
-                                                    class="form-control">
+                                                <input type="text" placeholder="Enter your Location" class="form-control">
                                             </div>
                                             <div class="mt-2 col-md-6 col-12 px-2">
                                                 <label for="" class="from-lab">CV Attachment </label>
-                                                <input type="file" placeholder="Enter your Location"
-                                                    class="form-control">
+                                                <input type="file" placeholder="Enter your Location" class="form-control">
                                             </div>
                                             <div class="mt-4  col-12">
                                                 <a href=" " class="btn-des  ">Save Changes</a>
@@ -246,8 +237,7 @@ include('templates/header.php') ?>
                                         <div class="d-flex-wrap">
                                             <div class="mt-2 col-md-6 col-12 px-2">
                                                 <label for="" class="from-lab">University </label>
-                                                <input type="name" placeholder="Enter your University "
-                                                    class="form-control">
+                                                <input type="name" placeholder="Enter your University " class="form-control">
                                             </div>
 
                                             <div class="mt-2 col-md-6 col-12 px-2">
@@ -261,13 +251,11 @@ include('templates/header.php') ?>
 
                                             <div class="mt-2 col-md-6 col-12 px-2">
                                                 <label for="" class="from-lab">From </label>
-                                                <input type="date" placeholder="Enter your Location"
-                                                    class="form-control">
+                                                <input type="date" placeholder="Enter your Location" class="form-control">
                                             </div>
                                             <div class="mt-2 col-md-6 col-12 px-2">
                                                 <label for="" class="from-lab">To </label>
-                                                <input type="date" placeholder="Enter your Location"
-                                                    class="form-control">
+                                                <input type="date" placeholder="Enter your Location" class="form-control">
                                             </div>
 
                                             <div class="mt-4  col-12">
@@ -287,25 +275,21 @@ include('templates/header.php') ?>
                                         <div class="d-flex-wrap">
                                             <div class="mt-2 col-md-6 col-12 px-2">
                                                 <label for="" class="from-lab">Job Title </label>
-                                                <input type="name" placeholder="Enter your Job Title "
-                                                    class="form-control">
+                                                <input type="name" placeholder="Enter your Job Title " class="form-control">
                                             </div>
                                             <div class="mt-2 col-md-6 col-12 px-2">
                                                 <label for="" class="from-lab"> Company </label>
-                                                <input type="name" placeholder="Enter your Curent Company "
-                                                    class="form-control">
+                                                <input type="name" placeholder="Enter your Curent Company " class="form-control">
                                             </div>
 
 
                                             <div class="mt-2 col-md-6 col-12 px-2">
                                                 <label for="" class="from-lab">From </label>
-                                                <input type="date" placeholder="Enter your Location"
-                                                    class="form-control">
+                                                <input type="date" placeholder="Enter your Location" class="form-control">
                                             </div>
                                             <div class="mt-2 col-md-6 col-12 px-2">
                                                 <label for="" class="from-lab">To </label>
-                                                <input type="date" placeholder="Enter your Location"
-                                                    class="form-control">
+                                                <input type="date" placeholder="Enter your Location" class="form-control">
                                             </div>
 
                                             <div class="mt-4  col-12">
@@ -325,8 +309,7 @@ include('templates/header.php') ?>
                                         <div class="d-flex-wrap">
                                             <div class="mt-2  col-12 px-2">
                                                 <label for="" class="from-lab"> Skills </label>
-                                                <input type="name" placeholder="Enter your Skills "
-                                                    class="form-control">
+                                                <input type="name" placeholder="Enter your Skills " class="form-control">
                                             </div>
 
 
@@ -669,7 +652,7 @@ include('templates/header.php') ?>
                 </div>
             </div>
             <div id="result" class="tab-pane">
-            <div class="apli-design">
+                <div class="apli-design">
                     <h4>Job Results</h4>
                     <div class="d-flex-wrap head-bar my-3">
                         <div class="col-md-5 col-12 ">
@@ -810,7 +793,7 @@ include('templates/header.php') ?>
                             </div>
                         </div>
                         <div class="col-md-4 col-12 px-3 my-2">
-                            <a href="" class="btn-des">Buy Now</a>
+                             <a href="" class="btn-des"  data-bs-toggle="modal" data-bs-target="#buynow-pop">Buy Now</a>
                         </div>
                     </div>
                     <div class="my-3 subscr-des d-flex-al">
@@ -827,7 +810,7 @@ include('templates/header.php') ?>
                             </div>
                         </div>
                         <div class="col-md-4 col-12 px-3 my-2">
-                            <a href="" class="btn-des">Buy Now</a>
+                             <a href="" class="btn-des"  data-bs-toggle="modal" data-bs-target="#buynow-pop">Buy Now</a>
                         </div>
                     </div>
                 </div>

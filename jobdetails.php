@@ -18,7 +18,7 @@ include('templates/header.php') ?>
                 </div>
                 <div class=" col-md-4 col-12 px-2">
                     <div class="mt-4 text-md-end ">
-                        <a href="" data-bs-toggle="modal" data-bs-target="#job-pop" class="btn-des">Apply Now</a>
+                        <a href="" data-bs-toggle="modal" data-bs-target="#alert-pop" class="btn-des">Apply Now</a>
 
                     </div>
                 </div>
@@ -68,7 +68,7 @@ include('templates/header.php') ?>
                 </li>
             </ul>
             <div class="mt-4 ">
-                <a href="" data-bs-toggle="modal" data-bs-target="#job-pop" class="btn-des">Apply Now</a>
+                <a href="" data-bs-toggle="modal" data-bs-target="#alert-pop" class="btn-des">Apply Now</a>
             </div>
         </div>
     </div>

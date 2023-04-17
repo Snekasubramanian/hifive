@@ -107,6 +107,12 @@ ul {
     justify-content: space-between;
 }
 
+.d-flex-je {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
 .d-flex-al-jc {
     display: flex;
     flex-wrap: wrap;
@@ -169,6 +175,13 @@ ul {
 /* form design */
 .form-control,
 .form-select {
+    padding: 10px 12px !important;
+    font-size: 15px !important;
+    border: 1px solid #008dd129 !important;
+    box-shadow: 0 7px 20px #008dd11a;
+}
+
+.form-controls {
     padding: 10px 12px !important;
     font-size: 15px !important;
     border: 1px solid #008dd129 !important;
@@ -1014,6 +1027,8 @@ footer {
 .quest-design h6 {
     height: 40px;
     font-family: "f2";
+    display: flex;
+    align-items: center;
 }
 
 .call-back {
@@ -1085,10 +1100,12 @@ footer {
     color: #008DD2;
     text-align: center;
 }
+
 .upload-btn-wrapper {
     position: relative;
     overflow: hidden;
 }
+
 .upload-btn-wrapper input[type=file] {
     font-size: 100px;
     position: absolute;
@@ -1096,7 +1113,8 @@ footer {
     top: 0;
     opacity: 0;
 }
-.upload-btn-wrapper p{
+
+.upload-btn-wrapper p {
     font-size: 20px;
 }
 
@@ -1203,3 +1221,109 @@ footer {
 }
 
 /* schedule tracking ends */
+/* counter design */
+.counter-bgs {
+    background: #ECEDF2;
+    padding: 30px;
+}
+
+.com-box {
+    background: #FFF;
+    box-shadow: 0 8px 30px rgb(33 150 243 / 15%);
+    border-radius: 5px;
+    padding: 50px 20px;
+    text-align: center;
+    transition: 0.4s;
+    height: 100%;
+}
+
+.com-box i {
+
+    font-size: 24px;
+    transition: 0.4s;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.cont-des .icon-inner:nth-child(1) .com-box i {
+    color: #525FE1;
+    background: rgba(82, 95, 225, .1);
+}
+
+.cont-des .icon-inner:nth-child(2) .com-box i {
+    color: #FFA41B;
+    background: #ffa41b1a;
+}
+
+.cont-des .icon-inner:nth-child(3) .com-box i {
+    color: #0DB09F;
+    background: #0DB09F1A;
+}
+
+.cont-des .icon-inner:nth-child(4) .com-box i {
+    color: #9C27B0;
+    background: #9c27b021;
+}
+
+.com-box h5 {
+    margin: 10px 0;
+    font-family: "f2";
+}
+
+/* counter design end */
+/* alter job */
+.con_rig span {
+    font-size: 24px;
+    transition: 0.4s;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9C27B0;
+    background: #9c27b021;
+}
+
+.con_rig h4 {
+    text-align: center;
+    /* color: #0278B3; */
+}
+
+.con_rig h5 {
+    font-size: 18px;
+}
+
+.rect-status i {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+
+}
+
+.rect-status a {
+    margin: 0 10px;
+}
+
+.rect-status .edit i {
+    color: #0DB09F;
+    background: #0DB09F1A;
+}
+
+.rect-status .delete i {
+    color: #e91e1e;
+    background: #f443362e;
+}
+
+/* alter job */

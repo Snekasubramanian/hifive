@@ -5,12 +5,13 @@ include('templates/header.php') ?>
     <div class="d-flex-al-jc">
         <div class="col-md-7 col-12 px-3 my-2">
             <div class="featur-job bg-white  ">
-
-                <div class="job-comp px-2  ">
-                    <h5>#12349</h5>
-                    <p>UI/UX Designer</p>
+                <div class="d-flex-al-jb">
+                    <div class="job-comp px-2  ">
+                        <h5>#12349</h5>
+                        <p>UI/UX Designer</p>
+                    </div>
+                    <button  class="btn-des"><i class="fa fa-plus"></i> Add Type</button>
                 </div>
-
                 <div class="d-flex-al my-3">
                     <div class="icon-det d-flex-al">
                         <span class="material-symbols-outlined">
@@ -40,34 +41,39 @@ include('templates/header.php') ?>
 
 </div>
 <div class="tab-design  w-95 my-3 ">
-    <ul class="nav nav-pills justify-content-center" role="tablist">
+
+    <ul class="nav nav-pills  justify-content-center" role="tablist">
         <li class="nav-item">
-            <a class="nav-link active" data-bs-toggle="pill" href="#mac">Round 1</a>
+            <a class="nav-link active" data-bs-toggle="pill" href="#mac">Type 1</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="pill" href="#paragraph">Round 2</a>
+            <a class="nav-link" data-bs-toggle="pill" href="#paragraph">Type 2</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="pill" href="#video">Round 3</a>
+            <a class="nav-link" data-bs-toggle="pill" href="#video">Type 3</a>
         </li>
     </ul>
+
+
     <div class="tab-content my-4 w-95">
+
         <div id="mac" class="  tab-pane active">
             <div class="form-des  ">
                 <h3>MCQ quiz </h3>
-                <div class="quest-design d-flex-wrap ">
-                    <div class="mal-first col-md-6 col-12 px-3 my-2 ">
-                        <h6>1. How many sentences does a paragraph have?</h6>
+                <div class="quest-design  ">
+                    <div class="mal-first  px-3 my-2 ">
+                        <h6>1. <input type="text" class="form-control my-2   " placeholder="How many sentences does a paragraph have?"></h6>
                         <ul>
-                            <li> 5-7 </li>
-                            <li> 6-8 </li>
-                            <li> 3-4 </li>
-                            <li> 9 </li>
+                            <li> <input type="text" class="form-controls my-2   " placeholder=" 5-7"></li>
+                            <li> <input type="text" class="form-controls my-2   " placeholder=" 8-9"></li>
+                            <li> <input type="text" class="form-controls my-2   " placeholder=" 15-17"></li>
+                            <li> <input type="text" class="form-controls my-2   " placeholder="9"></li>
+
                         </ul>
-                        <input type="text" class="form-control my-2  " placeholder="Enter your Ans">
+
                     </div>
 
-                    <div class="mal-first col-md-6 col-12 px-3 my-2 ">
+                    <div class="mal-first  px-3 my-2 ">
                         <h6>2.
                             Where do you save your Photostory project, images, etc.? </h6>
                         <ul>
@@ -78,10 +84,10 @@ include('templates/header.php') ?>
                                 The p drive </li>
                             <li> The h drive </li>
                         </ul>
-                        <input type="text" class="form-control my-2  " placeholder="Enter your Ans">
+
                     </div>
 
-                    <div class="mal-first col-md-6 col-12 px-3 my-2 ">
+                    <div class="mal-first  px-3 my-2 ">
                         <h6>3.
                             What is the first sentence of a paragraph called?</h6>
                         <ul>
@@ -92,10 +98,10 @@ include('templates/header.php') ?>
                             <li>
                                 The first sentence</li>
                         </ul>
-                        <input type="text" class="form-control my-2  " placeholder="Enter your Ans">
+
                     </div>
 
-                    <div class="mal-first col-md-6 col-12 px-3 my-2 ">
+                    <div class="mal-first  px-3 my-2 ">
                         <h6>
                             4. When do you use supporting details or supporting sentences?</h6>
                         <ul>
@@ -104,10 +110,10 @@ include('templates/header.php') ?>
                             <li> 3-4 </li>
                             <li> 9 </li>
                         </ul>
-                        <input type="text" class="form-control my-2  " placeholder="Enter your Ans">
+
                     </div>
 
-                    <div class="mal-first col-md-6 col-12 px-3 my-2 ">
+                    <div class="mal-first  px-3 my-2 ">
                         <h6>
                             5. What is a descriptive paragraph?</h6>
                         <ul>
@@ -116,10 +122,10 @@ include('templates/header.php') ?>
                             <li> 3-4 </li>
                             <li> 9 </li>
                         </ul>
-                        <input type="text" class="form-control my-2  " placeholder="Enter your Ans">
+
                     </div>
 
-                    <div class="mal-first col-md-6 col-12 px-3 my-2 ">
+                    <div class="mal-first  px-3 my-2 ">
                         <h6>6.A topic sentence is the central idea of each paragraph, usually appearing at the beginning of the paragraph.</h6>
                         <ul>
                             <li> 5-7 </li>
@@ -127,7 +133,7 @@ include('templates/header.php') ?>
                             <li> 3-4 </li>
                             <li> 9 </li>
                         </ul>
-                        <input type="text" class="form-control my-2  " placeholder="Enter your Ans">
+
                     </div>
 
                 </div>
@@ -141,7 +147,7 @@ include('templates/header.php') ?>
                 <h3>READING COMPREHENSION
                     PRACTICE TEST </h3>
                 <div class="quest-design d-flex-wrap ">
-                    <div class="mal-first col-md-6 col-12 px-3 my-2 ">
+                    <div class="mal-first  px-3 my-2 ">
                         <p>01.Genealogy is fun. Just as a piece of furniture or a picture takes on much more interest
                             if you know its history, so does an individual become more real once the ancestral
                             elements that shaped him are known. An in-depth family history is a tapestry of all
@@ -153,9 +159,9 @@ include('templates/header.php') ?>
                             <li>Genealogy is a study of family history </li>
                             <li>Genealogical research can bring meaning and life to a family’s history.</li>
                         </ul>
-                        <input type="text" class="form-control my-2  " placeholder="Enter your Ans">
+
                     </div>
-                    <div class="mal-first col-md-6 col-12 px-3 my-2 ">
+                    <div class="mal-first  px-3 my-2 ">
                         <p>02.Genealogy is fun. Just as a piece of furniture or a picture takes on much more interest
                             if you know its history, so does an individual become more real once the ancestral
                             elements that shaped him are known. An in-depth family history is a tapestry of all
@@ -167,9 +173,9 @@ include('templates/header.php') ?>
                             <li>Genealogy is a study of family history </li>
                             <li>Genealogical research can bring meaning and life to a family’s history.</li>
                         </ul>
-                        <input type="text" class="form-control my-2  " placeholder="Enter your Ans">
+
                     </div>
-                    <div class="mal-first col-md-6 col-12 px-3 my-2 ">
+                    <div class="mal-first  px-3 my-2 ">
                         <p>03.Genealogy is fun. Just as a piece of furniture or a picture takes on much more interest
                             if you know its history, so does an individual become more real once the ancestral
                             elements that shaped him are known. An in-depth family history is a tapestry of all
@@ -181,7 +187,7 @@ include('templates/header.php') ?>
                             <li>Genealogy is a study of family history </li>
                             <li>Genealogical research can bring meaning and life to a family’s history.</li>
                         </ul>
-                        <input type="text" class="form-control my-2  " placeholder="Enter your Ans">
+
                     </div>
 
                 </div>

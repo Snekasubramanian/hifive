@@ -70,6 +70,9 @@ include('templates/header.php') ?>
                 </li>
 
             </ul>
+            <div class="upload-btn-wrapper my-3">
+                <button class="btn-des">Request for Document</button>
+            </div>
         </div>
         <div class="job-content">
             <h4> Candidate Document</h4>
