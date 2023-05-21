@@ -94,55 +94,7 @@ include('templates/header.php') ?>
     </div>
 </div>
 <!-- job featured end -->
-<!-- Count design -->
-<div class="my-3 counter-bgs ">
-    <div class="title-design text-center">
-        <h2>Discover why more companies are using HR to make hiring easy</h2>
-    </div>
-    <div class="my-4 d-flex-al-jc cont-des w-95">
-        <div class="col-md-3 col-sm-6 col-12 px-3 my-2 icon-inner">
-            <div class="com-box">
-                <i class="ri-team-line"></i>
-                <h5>
-                    <span class="counter" data-count="200"> 0 </span>
-                    <sup>+</sup>
-                </h5>
-                <h6>Applied Jobs</h6>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-6 col-12 px-3 my-2 icon-inner">
-            <div class="com-box">
-                <i class="ri-user-follow-line"></i>
-                <h5>
-                    <span class="counter" data-count="200"> 0 </span>
-                    <sup>+</sup>
-                </h5>
-                <h6> Posted Jobs</h6>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-6 col-12 px-3 my-2 icon-inner">
-            <div class="com-box">
-                <i class="ri-user-search-line"></i>
-                <h5>
-                    <span class="counter" data-count="200"> 0 </span>
-                    <sup>+</sup>
-                </h5>
-                <h6>Shorlist candidate</h6>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-6 col-12 px-3 my-2 icon-inner">
-            <div class="com-box">
-                <i class="ri-user-star-line"></i>
-                <h5>
-                    <span class="counter" data-count="200"> 0 </span>
-                    <sup>+</sup>
-                </h5>
-                <h6>Over all Posted</h6>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Count design end -->
+ 
 <!-- find job -->
 <div class="my-3 w-95 find-job d-flex-al">
     <div class="col-md-6 col-12 px-3 my-2">

@@ -130,14 +130,14 @@ ul {
 /* // common design end // */
 /* // button design star // */
 .btn-des {
-    background: #008DD2;
+    background: #97144D;
     color: #fff !important;
     border-radius: 7px;
     padding: 8px 18px;
     transition: .3s all;
     border: 0;
     font-size: 15px;
-    box-shadow: 0 3px 10px #008dd13d;
+    box-shadow: 0 3px 10px #97144D3d;
     font-family: "f2";
 }
 
@@ -149,12 +149,12 @@ ul {
     transition: .3s all;
     border: 0;
     font-size: 15px;
-    box-shadow: 0 3px 10px #008dd13d;
+    box-shadow: 0 3px 10px #97144D3d;
     font-family: "f2";
 }
 
 .btn-des:hover {
-    background-color: #0278B3;
+    background-color: #da317b;
     transform: translateY(-2px);
     transition: 0.2s;
 }
@@ -164,7 +164,7 @@ ul {
     top: 0;
     right: 0;
     border: 0;
-    background: #008DD2;
+    background: #97144D;
     width: 25px;
     height: 25px;
     z-index: 1;
@@ -177,34 +177,34 @@ ul {
 .form-select {
     padding: 10px 12px !important;
     font-size: 15px !important;
-    border: 1px solid #008dd129 !important;
-    box-shadow: 0 7px 20px #008dd11a;
+    border: 1px solid #97144D29!important;
+    box-shadow: 0 7px 20px #97144D1a;
 }
 
 .form-controls {
     padding: 10px 12px !important;
     font-size: 15px !important;
-    border: 1px solid #008dd129 !important;
-    box-shadow: 0 7px 20px #008dd11a;
+    border: 1px solid #97144D29!important;
+    box-shadow: 0 7px 20px #97144D1a;
 }
 
 .form-control:focus,
 .form-select:focus {
     color: #212529;
     background-color: #fff;
-    border: 1px solid #008dd129 !important;
+    border: 1px solid #97144D29!important;
     box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 0%) !important;
 }
 
 /* form design end */
 /* navbar design */
 .nav-menu {
-    background: #F3F6FF;
+    background: #F5F5F5;
     border-bottom: 1px solid #00000014;
 }
 
 .nav-menu img {
-    width: 120px;
+    width: 60px;
 }
 
 .nav-menu .nav_a {
@@ -217,7 +217,7 @@ ul {
 }
 
 .nav_a .nav-link.active {
-    color: #008DD2 !important;
+    color: #97144D !important;
 }
 
 /* navbar design end */
@@ -243,7 +243,7 @@ footer {
 }
 
 .footer-design h5 {
-    color: #008DD2;
+    color: #97144D;
 }
 
 .footer-design ul li {
@@ -283,7 +283,7 @@ footer {
 }
 
 .logi-des .logo-design h4 {
-    color: #008DD2;
+    color: #97144D;
     margin-bottom: 30px;
 }
 
@@ -308,7 +308,7 @@ footer {
 }
 
 .login-page .login-content h3::before {
-    background-color: #008DD2;
+    background-color: #97144D;
     content: "";
     height: 3px;
     width: 50px;
@@ -334,7 +334,7 @@ footer {
 }
 
 .login-content .nav-link.active {
-    background-color: #008DD2 !important;
+    background-color: #97144D !important;
     color: #000;
 }
 
@@ -351,12 +351,12 @@ footer {
     top: 30%;
     right: 3%;
     cursor: pointer;
-    color: #008DD2;
+    color: #97144D;
 }
 
 
 .login-content h6 a {
-    color: #008DD2;
+    color: #97144D;
     font-size: 15px;
 }
 
@@ -367,14 +367,14 @@ footer {
 .login-content .btn-des {
     width: 100%;
     padding: 10px 12px !important;
-    background: #008DD2 !important;
+    background: #97144D !important;
 }
 
 /* login design end */
 /* home page design */
 .banner-design {
     padding: 60px 20px;
-    background: #f3f6ff;
+    background: #F5F5F5;
 }
 
 .banner-design .banr-right img {
@@ -383,7 +383,7 @@ footer {
 }
 
 .banner-design .baner-left h6 {
-    color: #008DD2;
+    color: #97144D;
 }
 
 .search-container .form-control {
@@ -405,7 +405,7 @@ footer {
     color: #fff;
     cursor: pointer;
     border-radius: 5px;
-    background: #008DD2 !important;
+    background: #97144D !important;
 }
 
 #searchform {
@@ -417,18 +417,18 @@ footer {
 }
 
 .navbar-toggler {
-    background-color: #008DD2 !important;
+    background-color: #97144D !important;
     color: #fff !important;
 }
 
 /* home page design end*/
 /* Job Featured */
 .title-design h2 {
-    color: #008DD2;
+    color: #97144D;
 }
 
 .featur-job {
-    background: #F0F8FD;
+    background: #F5F5F5;
     padding: 20px;
 }
 
@@ -448,7 +448,7 @@ footer {
 }
 
 .icon-det span {
-    color: #008DD2;
+    color: #97144D;
 }
 
 .icon-det h6 {
@@ -489,7 +489,7 @@ footer {
 }
 
 .find-job .find-content h6 {
-    color: #008DD2;
+    color: #97144D;
 }
 
 .find-job .find-content p {
@@ -505,7 +505,7 @@ footer {
 }
 
 .blog-page .cou_card {
-    box-shadow: 0 3px 10px #008dd13d;
+    box-shadow: 0 3px 10px #97144D3d;
 }
 
 .cou_card h6,
@@ -540,7 +540,7 @@ footer {
 }
 
 .cou_card:hover h5 {
-    color: #008DD2;
+    color: #97144D;
 }
 
 .cou_card .cou_img {
@@ -596,7 +596,7 @@ footer {
 }
 
 .about-page .about-img h6 {
-    color: #008DD2;
+    color: #97144D;
 }
 
 .about-page .about-img p {
@@ -610,7 +610,7 @@ footer {
 }
 
 .recuit-bg {
-    background: #f3f6ff;
+    background: #F5F5F5;
     border-radius: 10px;
     padding: 10px;
 }
@@ -691,7 +691,7 @@ footer {
 }
 
 .job-detail .job-content h4::before {
-    background-color: #008DD2;
+    background-color: #97144D;
     content: "";
     height: 3px;
     width: 50px;
@@ -724,7 +724,7 @@ footer {
 }
 
 .job-detail .job-content li span {
-    color: #008DD2;
+    color: #97144D;
     /* font-size: 35px; */
 }
 
@@ -793,15 +793,15 @@ footer {
 .page-nation .current,
 .page-nations .currents {
     color: #FFF;
-    background-color: #008DD2;
-    border-color: #008DD2;
+    background-color: #97144D;
+    border-color: #97144D;
 }
 
 .page-nation .prev.current,
 .page-nation .next.current,
 .page-nations .prev.currents,
 .page-nations .next.currents {
-    background: #0278B3;
+    background: #97144D;
 }
 
 
@@ -811,7 +811,7 @@ footer {
 
     width: 45px;
     height: 45px;
-    background: #0278B3;
+    background: #97144D;
     border-radius: 100%;
     padding: 5px;
 
@@ -820,7 +820,7 @@ footer {
 /* login-dropdown end */
 /* dashboard */
 .dash-board {
-    box-shadow: 0 3px 10px #008dd13d;
+    box-shadow: 0 3px 10px #97144D3d;
     background: #fff;
     padding: 20px 15px;
     border-radius: 10px;
@@ -844,7 +844,7 @@ footer {
 
 .dash-board img {
     width: 100%;
-    background: #0278b3;
+    background: #97144D;
     border-radius: 10px;
     padding: 10px;
     /* height: 80px; */
@@ -860,7 +860,7 @@ footer {
 .tab-design .nav-link.active {
     background-color: rgb(25 103 210 / 10%) !important;
     color:
-        #0278b3 !important;
+        #97144D !important;
 }
 
 .profile-design .nav-link,
@@ -899,7 +899,7 @@ footer {
 
 .applied-job span {
     background: #e8f0fa;
-    color: #0278b3;
+    color: #97144D;
 }
 
 .shor-list span {
@@ -919,8 +919,8 @@ footer {
 
 .profile-design .form-design {
     padding: 30px 25px !important;
-    border: 1px solid #008dd129 !important;
-    box-shadow: 0 7px 20px #008dd11a;
+    border: 1px solid #97144D29!important;
+    box-shadow: 0 7px 20px #97144D1a;
 }
 
 .apli-design .job-head {
@@ -931,7 +931,7 @@ footer {
 .apli-design .job-head h6 {
     margin: 0;
     font-family: "f2";
-    color: #008DD2;
+    color: #97144D;
 }
 
 .com-details img {
@@ -1007,7 +1007,7 @@ footer {
 }
 
 .meeting-design {
-    box-shadow: 0 3px 10px #008dd13d;
+    box-shadow: 0 3px 10px #97144D3d;
     background: #fff;
     padding: 20px 15px;
     border-radius: 10px;
@@ -1034,7 +1034,7 @@ footer {
 .call-back {
     padding: 30px 25px;
     border: 1px solid #008dd129;
-    box-shadow: 0 7px 20px #008dd11a;
+    box-shadow: 0 7px 20px #97144D1a;
     text-align: center;
 }
 
@@ -1070,13 +1070,13 @@ footer {
 .subscr-des {
     padding: 30px 25px;
     border: 1px solid #008dd129;
-    box-shadow: 0 7px 20px #008dd11a;
+    box-shadow: 0 7px 20px #97144D1a;
     border-radius: 13px;
 }
 
 .my-plan p {
     margin: 0;
-    background-color: #008DD2;
+    background-color: #97144D;
     padding: 10px;
     display: inline-block;
     border-radius: 7px;
@@ -1091,13 +1091,13 @@ footer {
 
 .plans-des h6 {
     font-family: "f3";
-    color: #008DD2;
+    color: #97144D;
 }
 
 /* recuirt end */
 /* add post */
 .add-post h4 {
-    color: #008DD2;
+    color: #97144D;
     text-align: center;
 }
 
@@ -1294,7 +1294,7 @@ footer {
 
 .con_rig h4 {
     text-align: center;
-    /* color: #0278B3; */
+    /* color: #97144D; */
 }
 
 .con_rig h5 {

@@ -48,31 +48,7 @@ include('templates/header.php') ?>
     </div>
 </div>
 <div class="job-detail d-flex-wrap my-3 w-95">
-    <div class="col-md-7 col-12 px-3 my-3">
-        <div class="job-content">
-            <h4>Jobs Description</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut an labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labo ris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipisic- ing elit, sed do eiusmod tempor incididunt ut an labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
-            <h4>Key Responsibilities</h4>
-            <ul>
-                <li><span class="material-symbols-outlined">
-                        check_small
-                    </span>Be involved in every step of the product design cycle from discovery to developer handoff and user acceptance testing.
-                </li>
-                <li><span class="material-symbols-outlined">
-                        check_small
-                    </span>Be involved in every step of the product design cycle from discovery to developer handoff and user acceptance testing.
-                </li>
-                <li><span class="material-symbols-outlined">
-                        check_small
-                    </span>Be involved in every step of the product design cycle from discovery to developer handoff and user acceptance testing.
-                </li>
-            </ul>
-            <div class="mt-4 ">
-                <a href="" data-bs-toggle="modal" data-bs-target="#alert-pop" class="btn-des">Apply Now</a>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-5 col-12 px-3 my-3">
+<div class="col-md-5 col-12 px-3 my-3">
         <div class="job-content featur-job">
             <div class="job-over my-3">
                 <h4>Job Overview</h4>
@@ -137,5 +113,30 @@ include('templates/header.php') ?>
             </div>
         </div>
     </div>
+    <div class="col-md-7 col-12 px-3 my-3">
+        <div class="job-content">
+            <h4>Jobs Description</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut an labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labo ris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipisic- ing elit, sed do eiusmod tempor incididunt ut an labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+            <h4>Key Responsibilities</h4>
+            <ul>
+                <li><span class="material-symbols-outlined">
+                        check_small
+                    </span>Be involved in every step of the product design cycle from discovery to developer handoff and user acceptance testing.
+                </li>
+                <li><span class="material-symbols-outlined">
+                        check_small
+                    </span>Be involved in every step of the product design cycle from discovery to developer handoff and user acceptance testing.
+                </li>
+                <li><span class="material-symbols-outlined">
+                        check_small
+                    </span>Be involved in every step of the product design cycle from discovery to developer handoff and user acceptance testing.
+                </li>
+            </ul>
+            <div class="mt-4 ">
+                <a href="" data-bs-toggle="modal" data-bs-target="#alert-pop" class="btn-des">Apply Now</a>
+            </div>
+        </div>
+    </div>
+    
 </div>
 <?php include('templates/footer.php') ?>
